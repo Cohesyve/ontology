@@ -39837,10 +39837,7 @@ SAFE_CAST(impressions AS INT64) AS impressions,
 SAFE_CAST(reach AS INT64) AS reach,  
 SAFE_CAST(spend AS FLOAT64) AS spend,  
 updated_time
-
-
-
-FROM `cohesyve-us.#database_id.facebook__adinsights_default`
+FROM `cohesyve-us.#database_id.facebook__adsinsights_default`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -40009,7 +40006,7 @@ facebook_ads:komuj-mazih-pujak-lohur rdf:type owl:Class ;
 
 
 
-FROM `cohesyve-us.#database_id.facebook__adinsights_default`
+FROM `cohesyve-us.#database_id.facebook__adsinsights_default`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
