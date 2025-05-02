@@ -39936,78 +39936,7 @@ facebook_ads:kitiz-tagij-zorib-namum rdf:type owl:Class ;
 facebook_ads:komuj-mazih-pujak-lohur rdf:type owl:Class ;
                                      rdfs:subClassOf facebook_ads:kitiz-tagij-zorib-namum ;
                                      rdfs:isDefinedBy "A general class repersenting extra media data" ;
-                                     rdfs:label "AdMedia" ;
-                                     :query """SELECT 
-    ad_id,
-    account_currency,
-    account_name,
-    action_values,
-    actions,
-    ad_click_actions,
-    ad_impression_actions,
-    adset_name,
-    attribution_setting,
-    auction_bid,
-    auction_competitiveness,
-    auction_max_competitor_bid,
-    average_purchases_conversion_value,
-    buying_type,
-    canvas_avg_view_percent,
-    canvas_avg_view_time,
-    catalog_segment_actions,
-    catalog_segment_value,
-    conversion_rate_ranking,
-    conversion_values,
-    converted_product_quantity,
-    converted_product_value,
-    engagement_rate_ranking,
-    estimated_ad_recall_rate,
-    estimated_ad_recallers,
-    SAFE_CAST(frequency AS INT64) AS frequency,  
-    full_view_impressions,
-    full_view_reach,
-    SAFE_CAST(inline_link_clicks AS INT64) AS inline_link_clicks,  
-    SAFE_CAST(inline_post_engagement AS INT64) AS inline_post_engagement,  
-    instant_experience_clicks_to_open,
-    instant_experience_clicks_to_start,
-    instant_experience_outbound_clicks,
-    SAFE_CAST(marketing_messages_delivery_rate AS INT64) AS marketing_messages_delivery_rate,  
-    marketing_messages_read_rate,
-    marketing_messages_website_purchase_values,
-    objective,
-    onsite_conversion_messaging_detected_purchase_deduped,
-    optimization_goal,
-    outbound_clicks,
-    qualifying_question_qualify_answer_rate,
-    quality_ranking,
-    SAFE_CAST(social_spend AS INT64) AS social_spend,  
-    unique_actions,
-    unique_clicks,
-    SAFE_CAST(unique_inline_link_clicks AS INT64) AS unique_inline_link_clicks,  
-    SAFE_CAST(unique_outbound_clicks AS INT64) AS unique_outbound_clicks,  
-    video_15_sec_watched_actions,
-    video_30_sec_watched_actions,
-    video_avg_time_watched_actions,
-    video_continuous_2_sec_watched_actions,
-    video_p100_watched_actions,
-    video_p25_watched_actions,
-    video_p50_watched_actions,
-    video_p75_watched_actions,
-    video_p95_watched_actions,
-    video_play_actions,
-    video_play_curve_actions,
-    video_play_retention_0_to_15s_actions,
-    video_play_retention_20_to_60s_actions,
-    video_play_retention_graph_actions,
-    video_time_watched_actions,
-    tenant,
-    _time_extracted,
-    _time_loaded
-
-
-
-FROM `cohesyve-us.#database_id.facebook__adsinsights_default`
-WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
+                                     rdfs:label "AdMedia" .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#rivuj-jirun-husut-husir
