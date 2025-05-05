@@ -20889,7 +20889,7 @@ facebook_ads:falad-nafur-kadal-sahuv rdf:type owl:DatatypeProperty ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "unique identifier for Ad images" ;
                                      rdfs:label "id" ;
-                                     :isPrimaryKey "" .
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#famoj-zumuz-hunik-putuf
@@ -20983,7 +20983,8 @@ facebook_ads:garan-gihad-vukom-vajag rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:mohob-zolag-safuv-tanah ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "unique identifier for ad set" ;
-                                     rdfs:label "id" .
+                                     rdfs:label "id" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#gasoz-fitor-hoduk-zimoh
@@ -21440,7 +21441,8 @@ facebook_ads:jozur-pojol-butab-honok rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:zobun-nagoz-logug-nolij ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "unique identifier for ads" ;
-                                     rdfs:label "id" .
+                                     rdfs:label "id" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#jubij-tukiv-lisib-fapum
@@ -21934,7 +21936,8 @@ facebook_ads:nagod-jusab-zahun-nuhit rdf:type owl:DatatypeProperty ;
 facebook_ads:nataj-hosul-kudih-javif rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:pabif-folaj-pibop-lopat ;
                                      rdfs:range xsd:string ;
-                                     rdfs:label "universal_video_id" .
+                                     rdfs:label "universal_video_id" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#natis-milad-lumat-vizoh
@@ -22006,7 +22009,8 @@ facebook_ads:niraz-kazig-gonul-bolam rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "The end date for your data. This is controlled by the date range you've selected for your reporting view." ;
-                                     rdfs:label "date_stop" .
+                                     rdfs:label "date_stop" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#nivos-vulat-fosad-fugup
@@ -22358,7 +22362,8 @@ facebook_ads:ropoj-sosaf-bahut-fazuh rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:livun-jibah-daroh-furiz ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "account identifier" ;
-                                     rdfs:label "account_id" .
+                                     rdfs:label "account_id" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#rufar-bidof-zadov-libid
@@ -22467,7 +22472,8 @@ facebook_ads:sirud-kofig-rulok-tatun rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "The start date for your data. This is controlled by the date range you've selected for your reporting view." ;
-                                     rdfs:label "date_start" .
+                                     rdfs:label "date_start" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#sivuz-buruh-puboh-disik
@@ -22697,7 +22703,8 @@ facebook_ads:vahog-sudat-zason-marap rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:silup-doziz-zosot-bihal ;
                                      rdfs:range xsd:string ;
                                      rdfs:comment "unique identifier for campaigns" ;
-                                     rdfs:label "id" .
+                                     rdfs:label "id" ;
+                                     :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#vajah-mibuj-bokaj-ponof
