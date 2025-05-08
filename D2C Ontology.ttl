@@ -10013,15 +10013,6 @@ amazon_ads:hhmrx-vnrww-nhpgz-abpde rdf:type owl:DatatypeProperty ;
                                    rdfs:label "sales_14_d"@en .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#hhwge-qlswl-awuvn-aueca
-amazon_ads:hhwge-qlswl-awuvn-aueca rdf:type owl:DatatypeProperty ;
-                                   owl:equivalentProperty amazon_ads:pnyql-qjljp-vqgsa-plkfs ;
-                                   rdfs:subPropertyOf amazon_ads:aybkc-sksea-hdvvu-rlfss ;
-                                   rdfs:range xsd:string ;
-                                   rdfs:isDefinedBy "Unique identifier for the portfolio that the campaign belongs to" ;
-                                   rdfs:label "portfolioId"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#hhxrv-swbif-ksuxf-bxfqh
 amazon_ads:hhxrv-swbif-ksuxf-bxfqh rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf amazon_ads:dtpfp-bagms-fowtv-gldgw ;
@@ -12246,14 +12237,6 @@ amazon_ads:nijki-jkzdx-jhyag-wvcrt rdf:type owl:DatatypeProperty ;
                                    rdfs:range xsd:integer ;
                                    rdfs:isDefinedBy "Total number of video ads viewed to the first quartile (25%)." ;
                                    rdfs:label "video_first_quartile_views"@en .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#nilug-lopot-pulut-risok
-amazon_ads:nilug-lopot-pulut-risok rdf:type owl:DatatypeProperty ;
-                                   rdfs:subPropertyOf amazon_ads:tvthm-qqxxn-jxjee-gflwl ;
-                                   rdfs:range xsd:string ;
-                                   rdfs:isDefinedBy "Likely a flag for utilizing default settings." ;
-                                   rdfs:label "smartDefault"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#ninek-wkhra-ckfuv-oehfn
@@ -34696,14 +34679,15 @@ amazon_ads:gulis-nigov-nisiv-vozan rdf:type owl:Class ;
                                    rdfs:label "SponsoredDisplayTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(expression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -34913,14 +34897,15 @@ amazon_ads:jorob-guzup-jigik-novul rdf:type owl:Class ;
                                    rdfs:label "SponsoredProductTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(expression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_products_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35008,7 +34993,6 @@ amazon_ads:kulis-puzun-virun-tulih rdf:type owl:Class ;
   campaignId,
   matchType,
   state,
-  adGroupId,
   keywordText,
   JSON_EXTRACT_SCALAR(extendedData, '$.creationDateTime') as creationDateTime,
   JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDateTime') as lastUpdateDateTime,
@@ -35240,14 +35224,15 @@ amazon_ads:lizug-mimaf-ladig-niboz rdf:type owl:Class ;
                                    rdfs:label "SponsoredDisplayResolvedNegativeTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(resolvedExpression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_negative_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35260,14 +35245,15 @@ amazon_ads:lotaf-gogig-bupuh-sigif rdf:type owl:Class ;
                                    rdfs:label "SponsoredBrandResolvedTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(resolvedExpressions) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35324,14 +35310,15 @@ amazon_ads:modif-fizon-rasig-ditoj rdf:type owl:Class ;
                                    rdfs:label "SponsoredBrandResolvedNegativeTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(resolvedExpressions) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_negative_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35394,14 +35381,15 @@ amazon_ads:mudad-ripub-zinat-gidid rdf:type owl:Class ;
                                    rdfs:label "SponsoredDisplayNegativeTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(expression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_negative_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35770,7 +35758,6 @@ amazon_ads:supin-zazis-gurag-darob rdf:type owl:Class ;
                                    rdfs:isDefinedBy "A class representing a Sponsored Product campaign" ;
                                    rdfs:label "SponsoredProductCampaign"@en ;
                                    :query """SELECT
-  portfolioId,
   endDate,
   campaignId,
   name,
@@ -35795,14 +35782,15 @@ amazon_ads:toboh-surif-vugaz-rifug rdf:type owl:Class ;
                                    rdfs:label "SponsoredProductResolvedTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(resolvedExpression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_products_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35815,14 +35803,15 @@ amazon_ads:torud-hagof-fopaz-homit rdf:type owl:Class ;
                                    rdfs:label "SponsoredBrandTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(expressions) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35902,14 +35891,15 @@ amazon_ads:vipuk-pagir-mulov-dopum rdf:type owl:Class ;
                                    rdfs:label "SponsoredDisplayResolvedTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(resolvedExpression) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -35958,14 +35948,15 @@ amazon_ads:vufoh-gotin-pobam-vokin rdf:type owl:Class ;
                                    rdfs:label "SponsoredBrandNegativeTargetingExpression"@en ;
                                    :query """WITH base_table as (
   SELECT
+    targetId,
     JSON_EXTRACT_ARRAY(expressions) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_negative_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
-),
+)
 SELECT 
   targetId,
-  JSON_EXTRACT_SCALAR(expression, '$type') as type,
-  JSON_EXTRACT_SCALAR(expression, '$value') as value
+  JSON_EXTRACT_SCALAR(expression, '$.type') as type,
+  JSON_EXTRACT_SCALAR(expression, '$.value') as value
 FROM
   base_table,
   UNNEST(expressions) as expression""" .
@@ -36020,7 +36011,6 @@ amazon_ads:zibos-fozim-mozut-rofon rdf:type owl:Class ;
                                    rdfs:isDefinedBy "A class representing a Sponsored Brand campaign" ;
                                    rdfs:label "SponsoredBrandCampaign"@en ;
                                    :query """SELECT
-  smartDefault,
   productLocation,
   bidding,
   isMultiAdGroupsEnabled,
