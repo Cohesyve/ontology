@@ -22937,7 +22937,8 @@ google_ads:bubus-tufof-zojiv-mopos rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:sufol-mazur-sonuz-rakis ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Represents the Ad Group to which the performance report belongs to." ;
-                                   rdfs:label "adGroup__id"@en .
+                                   rdfs:label "adGroup__id"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#buhob-ritoj-dapok-lutak
@@ -23012,7 +23013,8 @@ google_ads:fajas-labaz-kosik-jahig rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:vohiz-hinij-tujor-zunoj ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "The resource name of the campaign." ;
-                                   rdfs:label "campaign__resourceName"@en .
+                                   rdfs:label "campaign__resourceName"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#fazif-puhap-palud-dadus
@@ -23094,7 +23096,8 @@ google_ads:gavoj-jojuv-busag-zimih rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:vohiz-hinij-tujor-zunoj ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Date to which metrics apply" ;
-                                   rdfs:label "segments__date"@en .
+                                   rdfs:label "segments__date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#gazaf-kuvof-bajah-majiv
@@ -23278,7 +23281,8 @@ google_ads:jitor-fodih-bizik-muzav rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:lozin-porar-mojav-kokof ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Date to which metrics apply" ;
-                                   rdfs:label "segments__date"@en .
+                                   rdfs:label "segments__date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#jobot-konif-vimod-vanid
@@ -23418,7 +23422,8 @@ google_ads:limus-fivuf-mogor-holuj rdf:type owl:DatatypeProperty ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy """The resource name of the campaign. Campaign resource names have the form:
 customers/{customer_id}/campaigns/{campaign_id}""" ;
-                                   rdfs:label "campaign__resourceName"@en .
+                                   rdfs:label "campaign__resourceName"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#lodit-josap-modit-guzud
@@ -23500,7 +23505,8 @@ google_ads:majur-marum-halug-vokin rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:tihos-pobum-tibas-gazaz ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Customer account identifier" ;
-                                   rdfs:label "id"@en .
+                                   rdfs:label "id"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#malub-patop-dubig-tagip
@@ -23516,7 +23522,8 @@ google_ads:mamag-namiz-lahod-dokan rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:givih-navib-gahik-zopik ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Date to which metrics apply" ;
-                                   rdfs:label "segments__date"@en .
+                                   rdfs:label "segments__date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#mipis-himuh-poniz-sojin
@@ -23571,7 +23578,8 @@ google_ads:nanur-jivud-nifil-falab rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:nuhiz-bokis-goruv-rujad ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Date to which metrics apply" ;
-                                   rdfs:label "segments__date"@en .
+                                   rdfs:label "segments__date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#nilij-jodap-jatun-fovun
@@ -23619,8 +23627,7 @@ google_ads:nufib-zufob-mizif-tijik rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:tihos-pobum-tibas-gazaz ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "The ID of the customer" ;
-                                   rdfs:label "customer_id"@en ;
-                                   :isPrimaryKey "true"^^xsd:boolean .
+                                   rdfs:label "customer_id"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#nuhiz-bokis-goruv-rujad
@@ -23667,7 +23674,8 @@ google_ads:pijuz-tasiz-pilul-jotof rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:nuhiz-bokis-goruv-rujad ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "The resource name of the campaign." ;
-                                   rdfs:label "campaign__resourceName"@en .
+                                   rdfs:label "campaign__resourceName"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#posus-tilig-rolif-funij
@@ -23851,7 +23859,8 @@ google_ads:suvon-tobol-podir-pavav rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:givih-navib-gahik-zopik ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "The resource name of the campaign." ;
-                                   rdfs:label "campaign__resourceName"@en .
+                                   rdfs:label "campaign__resourceName"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#tagim-dorit-pigom-ralug
