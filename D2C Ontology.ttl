@@ -23337,6 +23337,14 @@ google_ads:juzis-sarob-bonob-rapup rdf:type owl:DatatypeProperty ;
                                    rdfs:label "metrics__clicks"@en .
 
 
+###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#kagus-zapiz-zidit-robif
+google_ads:kagus-zapiz-zidit-robif rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf google_ads:sufol-mazur-sonuz-rakis ;
+                                   rdfs:range xsd:string ;
+                                   rdfs:label "segments_date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
+
+
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#kibus-gatis-bodof-tofuj
 google_ads:kibus-gatis-bodof-tofuj rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:lozin-porar-mojav-kokof ;
