@@ -23664,7 +23664,7 @@ google_ads:nurip-bakat-ridak-fanif rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#paruf-turop-holub-biros
 google_ads:paruf-turop-holub-biros rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:bamun-nofuz-ronir-basod ;
-                                   rdfs:range xsd:string ;
+                                   rdfs:range xsd:integer ;
                                    rdfs:isDefinedBy "Count of how often your ad has appeared on a search results page or website on the Google Network during the active period of the Ad Group." ;
                                    rdfs:label "metrics__impressions"@en .
 
