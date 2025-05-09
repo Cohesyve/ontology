@@ -29871,7 +29871,7 @@ razorpay:acwqw-hdrxt-tnnyp-bepop rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#anjwp-yqmeu-jxyky-nvlgy
 razorpay:anjwp-yqmeu-jxyky-nvlgy rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:nakmv-rfzav-msluz-kuqfw ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "fees" ;
                                  rdfs:label "fees" .
 
@@ -29982,7 +29982,7 @@ razorpay:eeyxg-xscsl-fnuty-dtsuf rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#flgzb-gevnt-qatfy-djtet
 razorpay:flgzb-gevnt-qatfy-djtet rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:nakmv-rfzav-msluz-kuqfw ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "tax" ;
                                  rdfs:label "tax" .
 
@@ -29998,7 +29998,7 @@ razorpay:fytpy-wuscr-lmegy-fcigr rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#gibhk-tszpx-filer-kjohn
 razorpay:gibhk-tszpx-filer-kjohn rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:uvotj-rwnqh-ridxd-zakgi ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount" ;
                                  rdfs:label "amount" .
 
@@ -30030,7 +30030,7 @@ razorpay:iohkb-iinap-bytan-zayyc rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#iyzfa-aqlfr-icfbr-ozids
 razorpay:iyzfa-aqlfr-icfbr-ozids rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:zkepx-ivkjc-wfqek-azium ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "fee" ;
                                  rdfs:label "fee" .
 
@@ -30054,7 +30054,7 @@ razorpay:kaqgb-wfdzf-aufjl-zncyr rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#kjysh-yxfyf-plxvk-aidjp
 razorpay:kjysh-yxfyf-plxvk-aidjp rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:zkepx-ivkjc-wfqek-azium ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount_refunded" ;
                                  rdfs:label "amount_refunded" .
 
@@ -30104,7 +30104,7 @@ razorpay:lvxea-yanil-qbjap-wzfuc rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#mqnqf-tyrnf-crwqn-ykcwb
 razorpay:mqnqf-tyrnf-crwqn-ykcwb rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:bcwtd-leuur-ibgep-hiswd ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount_due" ;
                                  rdfs:label "amount_due" .
 
@@ -30167,7 +30167,7 @@ razorpay:otfon-bxikm-wbgbe-fkvoi rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#pggai-crgri-fkpxg-axbaa
 razorpay:pggai-crgri-fkpxg-axbaa rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:cugis-psbik-ldsmd-zxnlx ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount" ;
                                  rdfs:label "amount" .
 
@@ -30190,7 +30190,7 @@ razorpay:pwdqw-oobhw-blkvh-ojajt rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#pyfva-njkfb-eqxfo-isbht
 razorpay:pyfva-njkfb-eqxfo-isbht rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:nakmv-rfzav-msluz-kuqfw ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount" ;
                                  rdfs:label "amount" .
 
@@ -30222,7 +30222,7 @@ razorpay:qudkq-eorzv-vlqgl-kshur rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#reorm-njqdm-bofjy-tbrpv
 razorpay:reorm-njqdm-bofjy-tbrpv rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:zkepx-ivkjc-wfqek-azium ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount" ;
                                  rdfs:label "amount" .
 
@@ -30343,7 +30343,7 @@ razorpay:uvyex-cfyhs-wvvtb-izeyy rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#uznnt-udhad-zqwvz-nqdmq
 razorpay:uznnt-udhad-zqwvz-nqdmq rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:uvotj-rwnqh-ridxd-zakgi ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount_deducted" ;
                                  rdfs:label "amount_deducted" .
 
@@ -30430,7 +30430,7 @@ razorpay:xhyyh-jtmmz-jmsxe-uqlts rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#xofds-izzge-fnfvk-rdapw
 razorpay:xofds-izzge-fnfvk-rdapw rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:zkepx-ivkjc-wfqek-azium ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "tax" ;
                                  rdfs:label "tax" .
 
@@ -30471,7 +30471,7 @@ razorpay:zfspx-qqblj-dvxyw-unndi rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#zgmmv-cdagi-frvlu-kmwli
 razorpay:zgmmv-cdagi-frvlu-kmwli rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:bcwtd-leuur-ibgep-hiswd ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount" ;
                                  rdfs:label "amount" .
 
@@ -30501,7 +30501,7 @@ razorpay:zkgzh-yeyfb-qlzfu-vvame rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#zqcmi-xyspo-aokch-qwqjt
 razorpay:zqcmi-xyspo-aokch-qwqjt rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:bcwtd-leuur-ibgep-hiswd ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:float ;
                                  rdfs:isDefinedBy "amount_paid" ;
                                  rdfs:label "amount_paid" .
 
@@ -41776,10 +41776,10 @@ razorpay:bmjly-rxlnj-opvzv-ojcyg rdf:type owl:Class ;
                                  rdfs:label "Settlements"@en ;
                                  :query """SELECT
   t.`id` AS `id`,
-  t.`amount` AS `amount`,
+  (t.`amount`/100) AS `amount`,
   t.`status` AS `status`,
-  t.`fees` AS `fees`,
-  t.`tax` AS `tax`,
+  (t.`fees`/100) AS `fees`,
+  (t.`tax`/100) AS `tax`,
   t.`utr` AS `utr`,
   t.`created_at` AS `created_at`,
   t._time_loaded
@@ -41810,9 +41810,9 @@ razorpay:jgqnn-foiny-awedt-cttmu rdf:type owl:Class ;
                                  :query """SELECT
   t.`id` AS `id`,
   t.`entity` AS `entity`,
-  t.`amount` AS `amount`,
-  t.`amount_paid` AS `amount_paid`,
-  t.`amount_due` AS `amount_due`,
+  (t.`amount`/100) AS `amount`,
+  (t.`amount_paid`/100) AS `amount_paid`,
+  (t.`amount_due`/100) AS `amount_due`,
   t.`currency` AS `currency`,
   t.`receipt` AS `receipt`,
   t.`offer_id` AS `offer_id`,
@@ -41862,7 +41862,7 @@ razorpay:tlpbt-sgosp-nequk-vhluq rdf:type owl:Class ;
                                  :query """SELECT
   t.`id` AS `id`,
   t.`entity` AS `entity`,
-  t.`amount` AS `amount`,
+  (t.`amount`/100) AS `amount`,
   t.`currency` AS `currency`,
   t.`payment_id` AS `payment_id`,
   t.`receipt` AS `receipt`,
@@ -41888,14 +41888,14 @@ razorpay:vhbcd-gjolt-bxmyh-rxors rdf:type owl:Class ;
                                  :query """SELECT
   t.`id` AS `id`,
   t.`entity` AS `entity`,
-  t.`amount` AS `amount`,
+  (t.`amount`/100) AS `amount`,
   t.`currency` AS `currency`,
   t.`status` AS `status`,
   t.`order_id` AS `order_id`,
   t.`invoice_id` AS `invoice_id`,
   t.`international` AS `international`,
   t.`method` AS `method`,
-  t.`amount_refunded` AS `amount_refunded`,
+  (t.`amount_refunded`/100) AS `amount_refunded`,
   t.`refund_status` AS `refund_status`,
   t.`captured` AS `captured`,
   t.`description` AS `description`,
@@ -41905,8 +41905,8 @@ razorpay:vhbcd-gjolt-bxmyh-rxors rdf:type owl:Class ;
   t.`vpa` AS `vpa`,
   t.`email` AS `email`,
   t.`contact` AS `contact`,
-  t.`fee` AS `fee`,
-  t.`tax` AS `tax`,
+  (t.`fee`/100) AS `fee`,
+  (t.`tax`/100) AS `tax`,
   t.`error_code` AS `error_code`,
   t.`error_description` AS `error_description`,
   t.`error_source` AS `error_source`,
@@ -41929,9 +41929,9 @@ razorpay:yztna-cyfay-isoml-uhelz rdf:type owl:Class ;
   t.`id` AS `id`,
   t.`entity` AS `entity`,
   t.`payment_id` AS `payment_id`,
-  t.`amount` AS `amount`,
+  (t.`amount`/100) AS `amount`,
   t.`currency` AS `currency`,
-  t.`amount_deducted` AS `amount_deducted`,
+  (t.`amount_deducted`/100) AS `amount_deducted`,
   t.`reason_code` AS `reason_code`,
   t.`respond_by` AS `respond_by`,
   t.`status` AS `status`,
