@@ -23125,7 +23125,8 @@ google_ads:gonuj-sipil-gazuz-vihas rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf google_ads:bamun-nofuz-ronir-basod ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy "Date to which metrics apply" ;
-                                   rdfs:label "segments__date"@en .
+                                   rdfs:label "segments__date"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#gopan-gasob-fohob-fiman
@@ -23771,7 +23772,8 @@ google_ads:sarif-nozuf-jajul-ditub rdf:type owl:DatatypeProperty ;
                                    rdfs:range xsd:string ;
                                    rdfs:isDefinedBy """The resource name of the campaign. Campaign resource names have the form:
 customers/{customer_id}/campaigns/{campaign_id}""" ;
-                                   rdfs:label "campaign__resourceName"@en .
+                                   rdfs:label "campaign__resourceName"@en ;
+                                   :isPrimaryKey "true"^^xsd:boolean .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/GoogleAds#satik-pohur-zolim-pijuv
