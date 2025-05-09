@@ -21990,7 +21990,7 @@ facebook_ads:ninir-zutuv-guvaz-kanob rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#niraz-kazig-gonul-bolam
 facebook_ads:niraz-kazig-gonul-bolam rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
-                                     rdfs:range xsd:string ;
+                                     rdfs:range xsd:dateTime ;
                                      rdfs:isDefinedBy "The end date for your data. This is controlled by the date range you've selected for your reporting view." ;
                                      rdfs:label "date_stop" ;
                                      :isPrimaryKey "true"^^xsd:boolean .
@@ -22453,7 +22453,7 @@ facebook_ads:silup-doziz-zosot-bihal rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#sirud-kofig-rulok-tatun
 facebook_ads:sirud-kofig-rulok-tatun rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
-                                     rdfs:range xsd:string ;
+                                     rdfs:range xsd:dateTime ;
                                      rdfs:isDefinedBy "The start date for your data. This is controlled by the date range you've selected for your reporting view." ;
                                      rdfs:label "date_start" ;
                                      :isPrimaryKey "true"^^xsd:boolean .
