@@ -35173,55 +35173,7 @@ amazonads:buzit-fujir-zajup-nohoh rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:zigos-zizis-fipag-sodiz ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Display ad groups" ;
                                   rdfs:label "SponsoredDisplayAdGroupReport"@en ;
-                                  :query """SELECT ad_group_id,
-report_date,
-tactic,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_conversions_1_d,
-attributed_conversions_1_d_same_sku,
-attributed_conversions_30_d,
-attributed_conversions_30_d_same_sku,
-attributed_conversions_7_d,
-attributed_conversions_7_d_same_sku,
-attributed_detail_page_view_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_1_d,
-attributed_sales_1_d_same_sku,
-attributed_sales_30_d,
-attributed_sales_30_d_same_sku,
-attributed_sales_7_d,
-attributed_sales_7_d_same_sku,
-attributed_units_ordered_14_d,
-attributed_units_ordered_1_d,
-attributed_units_ordered_30_d,
-attributed_units_ordered_7_d,
-attributed_units_ordered_new_to_brand_14_d,
-avg_impressions_frequency,
-campaign_id,
-clicks,
-cost,
-cumulative_reach,
-impressions,
-vctr,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-view_attributed_branded_searches_14_d,
-view_attributed_conversions_14_d,
-view_attributed_detail_page_view_14_d,
-view_attributed_orders_new_to_brand_14_d,
-view_attributed_sales_14_d,
-view_attributed_sales_new_to_brand_14_d,
-view_attributed_units_ordered_14_d,
-view_attributed_units_ordered_new_to_brand_14_d,
-view_impressions,
-vtr FROM `cohesyve-us.#database_id.sd_ad_group_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_ad_groups`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35345,42 +35297,7 @@ amazonads:gibiv-pinug-suvob-gupib rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand gross and invalid traffic." ;
                                   rdfs:label "SponsoredBrandGrossAndInvalidTrafficReport"@en ;
-                                  :query """SELECT keyword_id,
-report_date,
-ad_group_id,
-applicable_budget_rule_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-campaign_id,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-search_term_impression_rank,
-search_term_impression_share,
-top_of_search_impression_share,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_keyword_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_gross_and_invalid_traffic`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35470,35 +35387,8 @@ WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 amazonads:jonur-miduv-busuh-hopan rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product advertised product" ;
-                                  rdfs:label "SponsoredProductAdvertisedProductdReport"@en ;
-                                  :query """SELECT ad_group_id,
-campaign_id,
-date,
-keyword_id,
-purchased_asin,
-advertised_asin as asin,
-advertised_sku as sku,
-match_type,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-sales_other_sku_14_d,
-sales_other_sku_1_d,
-sales_other_sku_30_d,
-sales_other_sku_7_d,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_other_sku_14_d,
-units_sold_other_sku_1_d,
-units_sold_other_sku_30_d,
-units_sold_other_sku_7_d FROM `cohesyve-us.#database_id.purchased_product_keyword_report`
+                                  rdfs:label "SponsoredProductAdvertisedProductReport"@en ;
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_advertised_products`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35548,50 +35438,7 @@ amazonads:kilin-davam-vivin-mitib rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:zigos-zizis-fipag-sodiz ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Display matched targets" ;
                                   rdfs:label "SponsoredDisplayAdvertisedProductReport"@en ;
-                                  :query """SELECT report_date,
-tactic,
-target_id,
-ad_group_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_conversions_1_d,
-attributed_conversions_1_d_same_sku,
-attributed_conversions_30_d,
-attributed_conversions_30_d_same_sku,
-attributed_conversions_7_d,
-attributed_conversions_7_d_same_sku,
-attributed_detail_page_view_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_1_d,
-attributed_sales_1_d_same_sku,
-attributed_sales_30_d,
-attributed_sales_30_d_same_sku,
-attributed_sales_7_d,
-attributed_sales_7_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_units_ordered_14_d,
-attributed_units_ordered_1_d,
-attributed_units_ordered_30_d,
-attributed_units_ordered_7_d,
-attributed_units_ordered_new_to_brand_14_d,
-campaign_id,
-clicks,
-cost,
-impressions,
-matched_target as asin,
-targeting_text,
-targeting_type,
-view_attributed_branded_searches_14_d,
-view_attributed_conversions_14_d,
-view_attributed_detail_page_view_14_d,
-view_attributed_orders_new_to_brand_14_d,
-view_attributed_sales_14_d,
-view_attributed_sales_new_to_brand_14_d,
-view_attributed_units_ordered_14_d,
-view_attributed_units_ordered_new_to_brand_14_d FROM `cohesyve-us.#database_id.sd_matched_target_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_advertised_products`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35618,50 +35465,7 @@ amazonads:kuviv-tutok-rufab-kuvuv rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product search products and categories" ;
                                   rdfs:label "SponsoredProductGrossAndInvalidTrafficReport"@en ;
-                                  :query """SELECT ad_group_id,
-campaign_id,
-date,
-keyword_id as target_id,
-search_term,
-acos_clicks_14_d,
-acos_clicks_7_d,
-ad_keyword_status,
-attributed_sales_same_sku_14_d,
-attributed_sales_same_sku_1_d,
-attributed_sales_same_sku_30_d,
-attributed_sales_same_sku_7_d,
-campaign_budget_amount,
-campaign_budget_type,
-clicks,
-cost,
-cost_per_click,
-impressions,
-keyword_bid,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-purchases_same_sku_14_d,
-purchases_same_sku_1_d,
-purchases_same_sku_30_d,
-purchases_same_sku_7_d,
-roas_clicks_14_d,
-roas_clicks_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-sales_other_sku_7_d,
-targeting,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_other_sku_7_d,
-units_sold_same_sku_14_d,
-units_sold_same_sku_1_d,
-units_sold_same_sku_30_d,
-units_sold_same_sku_7_d FROM `cohesyve-us.#database_id.search_term_targeting_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_gross_and_invalid_traffic`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35670,57 +35474,7 @@ amazonads:lahif-mikip-fatuz-fojuf rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:zigos-zizis-fipag-sodiz ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Display targets" ;
                                   rdfs:label "SponsoredDisplayTargetReport"@en ;
-                                  :query """SELECT report_date,
-tactic,
-target_id,
-ad_group_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_conversions_1_d,
-attributed_conversions_1_d_same_sku,
-attributed_conversions_30_d,
-attributed_conversions_30_d_same_sku,
-attributed_conversions_7_d,
-attributed_conversions_7_d_same_sku,
-attributed_detail_page_view_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_1_d,
-attributed_sales_1_d_same_sku,
-attributed_sales_30_d,
-attributed_sales_30_d_same_sku,
-attributed_sales_7_d,
-attributed_sales_7_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_units_ordered_14_d,
-attributed_units_ordered_1_d,
-attributed_units_ordered_30_d,
-attributed_units_ordered_7_d,
-attributed_units_ordered_new_to_brand_14_d,
-campaign_id,
-clicks,
-cost,
-impressions,
-targeting_text,
-targeting_type,
-vctr,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-view_attributed_branded_searches_14_d,
-view_attributed_conversions_14_d,
-view_attributed_detail_page_view_14_d,
-view_attributed_orders_new_to_brand_14_d,
-view_attributed_sales_14_d,
-view_attributed_sales_new_to_brand_14_d,
-view_attributed_units_ordered_14_d,
-view_attributed_units_ordered_new_to_brand_14_d,
-view_impressions,
-vtr FROM `cohesyve-us.#database_id.sd_target_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_targeting`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35761,53 +35515,7 @@ amazonads:lifif-kabiz-donat-fujuk rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product keywords and categories" ;
                                   rdfs:label "SponsoredProductTargetingReport"@en ;
-                                  :query """SELECT ad_group_id,
-campaign_id,
-date,
-keyword_id,
-acos_clicks_14_d,
-acos_clicks_7_d,
-ad_keyword_status,
-attributed_sales_same_sku_14_d,
-attributed_sales_same_sku_1_d,
-attributed_sales_same_sku_30_d,
-attributed_sales_same_sku_7_d,
-campaign_budget_amount,
-campaign_budget_currency_code,
-campaign_budget_type,
-click_through_rate,
-clicks,
-cost,
-cost_per_click,
-impressions,
-keyword_bid,
-keyword_type,
-match_type,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-purchases_same_sku_14_d,
-purchases_same_sku_1_d,
-purchases_same_sku_30_d,
-purchases_same_sku_7_d,
-roas_clicks_14_d,
-roas_clicks_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-sales_other_sku_7_d,
-targeting,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_other_sku_7_d,
-units_sold_same_sku_14_d,
-units_sold_same_sku_1_d,
-units_sold_same_sku_30_d,
-units_sold_same_sku_7_d FROM `cohesyve-us.#database_id.targeting_keyword_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_targeting`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35882,42 +35590,7 @@ amazonads:lumuf-zugim-lohiv-bifol rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand products and categories" ;
                                   rdfs:label "SponsoredBrandTargetingReport"@en ;
-                                  :query """SELECT report_date,
-target_id,
-ad_group_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-campaign_id,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-targeting_expression,
-targeting_text,
-targeting_type,
-top_of_search_impression_share,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_target_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_targeting`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -35969,26 +35642,7 @@ amazonads:movoz-gozut-ninah-pifut rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand search terms" ;
                                   rdfs:label "SponsoredBrandSearchReport"@en ;
-                                  :query """SELECT keyword_id,
-query_term,
-report_date,
-ad_group_id,
-attributed_conversions_14_d,
-attributed_sales_14_d,
-campaign_id,
-clicks,
-cost,
-impressions,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_search_term_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_search_terms`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36059,21 +35713,7 @@ amazonads:navan-furij-kipuk-lidoj rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand purchased products" ;
                                   rdfs:label "SponsoredBrandPurchasedProductReport"@en ;
-                                  :query """SELECT ad_group_id,
-date,
-attribution_type,
-campaign_id,
-new_to_brand_purchases_14_d,
-new_to_brand_purchases_percentage_14_d,
-new_to_brand_sales_14_d,
-new_to_brand_sales_percentage_14_d,
-new_to_brand_units_sold_14_d,
-new_to_brand_units_sold_percentage_14_d,
-orders_14_d,
-product_name,
-purchased_asin,
-sales_14_d,
-units_sold_14_d FROM `cohesyve-us.#database_id.sb_purchased_product`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_purchased_products`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36082,50 +35722,7 @@ amazonads:nitap-hokob-givif-domas rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product search keywords" ;
                                   rdfs:label "SponsoredProductSearchTermsReport"@en ;
-                                  :query """SELECT ad_group_id,
-campaign_id,
-date,
-keyword_id,
-search_term,
-acos_clicks_14_d,
-acos_clicks_7_d,
-ad_keyword_status,
-attributed_sales_same_sku_14_d,
-attributed_sales_same_sku_1_d,
-attributed_sales_same_sku_30_d,
-attributed_sales_same_sku_7_d,
-campaign_budget_amount,
-campaign_budget_type,
-clicks,
-cost,
-cost_per_click,
-impressions,
-keyword_bid,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-purchases_same_sku_14_d,
-purchases_same_sku_1_d,
-purchases_same_sku_30_d,
-purchases_same_sku_7_d,
-roas_clicks_14_d,
-roas_clicks_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-sales_other_sku_7_d,
-targeting,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_other_sku_7_d,
-units_sold_same_sku_14_d,
-units_sold_same_sku_1_d,
-units_sold_same_sku_30_d,
-units_sold_same_sku_7_d FROM `cohesyve-us.#database_id.search_term_ad_keyword_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_search_terms`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36134,37 +35731,7 @@ amazonads:nobom-zonin-rilup-hudar rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand campaigns" ;
                                   rdfs:label "SponsoredBrandCampaignReport"@en ;
-                                  :query """SELECT campaign_id,
-report_date,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-top_of_search_impression_share,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_campaign_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_campaigns`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36237,38 +35804,7 @@ amazonads:robok-kahul-gituh-murup rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand placements" ;
                                   rdfs:label "SponsoredBrandPlacementReport"@en ;
-                                  :query """SELECT campaign_id,
-placement,
-report_date,
-applicable_budget_rule_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_placement_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_placements`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36277,55 +35813,7 @@ amazonads:sipav-ravik-lakib-mobos rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:zigos-zizis-fipag-sodiz ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Display campaigns" ;
                                   rdfs:label "SponsoredDisplayCampaignReport"@en ;
-                                  :query """SELECT campaign_id,
-report_date,
-tactic,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_conversions_1_d,
-attributed_conversions_1_d_same_sku,
-attributed_conversions_30_d,
-attributed_conversions_30_d_same_sku,
-attributed_conversions_7_d,
-attributed_conversions_7_d_same_sku,
-attributed_detail_page_view_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_1_d,
-attributed_sales_1_d_same_sku,
-attributed_sales_30_d,
-attributed_sales_30_d_same_sku,
-attributed_sales_7_d,
-attributed_sales_7_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_units_ordered_14_d,
-attributed_units_ordered_1_d,
-attributed_units_ordered_30_d,
-attributed_units_ordered_7_d,
-attributed_units_ordered_new_to_brand_14_d,
-avg_impressions_frequency,
-clicks,
-cost,
-cumulative_reach,
-impressions,
-vctr,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-view_attributed_branded_searches_14_d,
-view_attributed_conversions_14_d,
-view_attributed_detail_page_view_14_d,
-view_attributed_orders_new_to_brand_14_d,
-view_attributed_sales_14_d,
-view_attributed_sales_new_to_brand_14_d,
-view_attributed_units_ordered_14_d,
-view_attributed_units_ordered_new_to_brand_14_d,
-view_impressions,
-vtr FROM `cohesyve-us.#database_id.sd_campaign_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_campaigns`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36429,7 +35917,7 @@ amazonads:tzycb-yrizi-dqgyh-fdmoi rdf:type owl:Class ;
                                   rdfs:label "SponsoredDisplayGrossAndInvalidTrafficReport"@en ;
                                   :query """SELECT
 *
-FROM `cohesyve-us.#database_id.amazon-advertising__sponsoreddisplayreportgrossandinvalidtraffic` AS t
+FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_gross_and_invalid_traffic` AS t
 WHERE date(t._time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36438,37 +35926,7 @@ amazonads:vajis-narag-hilub-jarik rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:zigos-zizis-fipag-sodiz ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Display purchased products" ;
                                   rdfs:label "SponsoredDisplayPurchasedProductReport"@en ;
-                                  :query """SELECT report_date,
-tactic,
-ad_group_id,
-asin,
-attributed_conversions_14_d_other_sku,
-attributed_conversions_1_d_other_sku,
-attributed_conversions_30_d_other_sku,
-attributed_conversions_7_d_other_sku,
-attributed_sales_14_d_other_sku,
-attributed_sales_1_d_other_sku,
-attributed_sales_30_d_other_sku,
-attributed_sales_7_d_other_sku,
-attributed_units_ordered_14_d_other_sku,
-attributed_units_ordered_1_d_other_sku,
-attributed_units_ordered_30_d_other_sku,
-attributed_units_ordered_7_d_other_sku,
-campaign_id,
-other_asin as purchased_asin,
-sku,
-view_attributed_conversions_14_d_other_sku,
-view_attributed_conversions_1_d_other_sku,
-view_attributed_conversions_30_d_other_sku,
-view_attributed_conversions_7_d_other_sku,
-view_attributed_sales_14_d_other_sku,
-view_attributed_sales_1_d_other_sku,
-view_attributed_sales_30_d_other_sku,
-view_attributed_sales_7_d_other_sku,
-view_attributed_units_ordered_14_d_other_sku,
-view_attributed_units_ordered_1_d_other_sku,
-view_attributed_units_ordered_30_d_other_sku,
-view_attributed_units_ordered_7_d_other_sku FROM `cohesyve-us.#database_id.sd_asin_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_display_report_purchased_products`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36498,34 +35956,7 @@ amazonads:vonur-dahuh-fisun-zurim rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product purchased products and categories" ;
                                   rdfs:label "SponsoredProductPurchasedProductsReport"@en ;
-                                  :query """SELECT ad_group_id,
-campaign_id,
-date,
-keyword_id as target_id,
-purchased_asin,
-advertised_asin as asin,
-advertised_sku as sku,
-match_type,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-sales_other_sku_14_d,
-sales_other_sku_1_d,
-sales_other_sku_30_d,
-sales_other_sku_7_d,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_other_sku_14_d,
-units_sold_other_sku_1_d,
-units_sold_other_sku_30_d,
-units_sold_other_sku_7_d FROM `cohesyve-us.#database_id.purchased_product_targeting_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_purchased_products`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36561,41 +35992,7 @@ amazonads:zasif-bomun-nogis-movad rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:nozub-jopal-gavad-zomob ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Product campaigns" ;
                                   rdfs:label "SponsoredProductCampaignReport"@en ;
-                                  :query """SELECT campaign_id,
-date,
-attributed_sales_same_sku_14_d,
-attributed_sales_same_sku_1_d,
-attributed_sales_same_sku_30_d,
-attributed_sales_same_sku_7_d,
-campaign_bidding_strategy,
-campaign_budget_amount,
-campaign_budget_type,
-click_through_rate,
-clicks,
-cost,
-cost_per_click,
-impressions,
-purchases_14_d,
-purchases_1_d,
-purchases_30_d,
-purchases_7_d,
-purchases_same_sku_14_d,
-purchases_same_sku_1_d,
-purchases_same_sku_30_d,
-purchases_same_sku_7_d,
-sales_14_d,
-sales_1_d,
-sales_30_d,
-sales_7_d,
-spend,
-units_sold_clicks_14_d,
-units_sold_clicks_1_d,
-units_sold_clicks_30_d,
-units_sold_clicks_7_d,
-units_sold_same_sku_14_d,
-units_sold_same_sku_1_d,
-units_sold_same_sku_30_d,
-units_sold_same_sku_7_d FROM `cohesyve-us.#database_id.campaign_level_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_products_report_campaigns`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36635,39 +36032,7 @@ amazonads:zibuj-rudaj-dusog-gibaf rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand ads" ;
                                   rdfs:label "SponsoredBrandAdReport"@en ;
-                                  :query """SELECT report_date,
-ad_group_id,
-ad_id,
-applicable_budget_rule_id,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-campaign_id,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_ad_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_ad`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
@@ -36729,37 +36094,7 @@ amazonads:zujir-sosir-kiror-pafaz rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:gozaz-mijaf-subum-visan ;
                                   rdfs:isDefinedBy "A class representing a report related to Sponsored Brand ad groups" ;
                                   rdfs:label "SponsoredBrandAdGroupReport"@en ;
-                                  :query """SELECT ad_group_id,
-report_date,
-attributed_branded_searches_14_d,
-attributed_conversions_14_d,
-attributed_conversions_14_d_same_sku,
-attributed_detail_page_views_clicks_14_d,
-attributed_order_rate_new_to_brand_14_d,
-attributed_orders_new_to_brand_14_d,
-attributed_orders_new_to_brand_percentage_14_d,
-attributed_sales_14_d,
-attributed_sales_14_d_same_sku,
-attributed_sales_new_to_brand_14_d,
-attributed_sales_new_to_brand_percentage_14_d,
-attributed_units_ordered_new_to_brand_14_d,
-attributed_units_ordered_new_to_brand_percentage_14_d,
-campaign_id,
-clicks,
-cost,
-dpv_14_d,
-impressions,
-units_sold_14_d,
-vctr,
-video_5_second_view_rate,
-video_5_second_views,
-video_complete_views,
-video_first_quartile_views,
-video_midpoint_views,
-video_third_quartile_views,
-video_unmutes,
-viewable_impressions,
-vtr FROM `cohesyve-us.#database_id.sb_ad_group_report`
+                                  :query """SELECT * FROM `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_report_ad_groups`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
 
