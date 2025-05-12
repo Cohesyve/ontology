@@ -30,15 +30,7 @@ class Ontology():
         self.PLATFORM_PREFIX = self.PLATFORM.lower()
         self.TAP = tap
 
-        temp_platform = self.PLATFORM.replace(" ", "_").replace("-", "_")
-        parts = temp_platform.split('_')
-        # Keep the first part as is, capitalize the first letter of subsequent parts, and join
-        # Join parts without changing case initially
-        joined_parts = "".join(parts)
-        # Capitalize the first letter and make the rest lowercase
-        platform_prefix_uri_formatted = joined_parts.capitalize()
-
-        self.PLATFORM_URI = f"https://www.cohesyve.com/ontologies/Platforms/{platform_prefix_uri_formatted}#"
+        self.PLATFORM_URI = f"https://www.cohesyve.com/ontologies/Platforms/{self.PLATFORM}#"
 
         # === Load Ontology & JSON ===
         self.g = Graph()
@@ -167,7 +159,7 @@ class Ontology():
         # Capitalize the first letter of the entire string
         if input_str:
              input_str = input_str[0].upper() + input_str[1:]
-        return input_str
+        return input_str.replace(" ", "")
 
     def create_class_property(self, label):
         random_id = self.random_slug()
@@ -599,6 +591,10 @@ def main():
             root_class_name = single_schema.get("stream")
             if not root_class_name:
                 print("Warning: Skipping stream with missing 'stream' key.")
+                continue
+
+            if not single_schema["metadata"][0]["metadata"]["selected"]:
+                print(f"Skipping stream '{root_class_name}' as it is not selected.")
                 continue
 
             print(f"Processing stream: {root_class_name}...")
