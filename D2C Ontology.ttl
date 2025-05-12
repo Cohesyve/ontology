@@ -7868,14 +7868,6 @@ amazonads:bmwrv-lqshn-ykoft-beagq rdf:type owl:DatatypeProperty ;
                                   rdfs:label "royaltyQualifiedBorrowsFromClicks" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#bnqps-opfbp-oskjs-ilbcp
-amazonads:bnqps-opfbp-oskjs-ilbcp rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:dateTimeStamp ;
-                                  rdfs:isDefinedBy "Date and time when the campaign was created" ;
-                                  rdfs:label "creationDateTime"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#bopof-golof-molah-haduz
 amazonads:bopof-golof-molah-haduz rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tahad-zudil-nibis-luhak ;
@@ -8529,14 +8521,6 @@ amazonads:depcn-riqqo-dmabp-vzcgj rdf:type owl:DatatypeProperty ;
                                   rdfs:range xsd:decimal ;
                                   rdfs:isDefinedBy "unitsSoldClicks" ;
                                   rdfs:label "unitsSoldClicks" .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#dexuq-itfzd-ztxbv-vklln
-amazonads:dexuq-itfzd-ztxbv-vklln rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Indicates whether dynamic bidding is enabled for the campaign" ;
-                                  rdfs:label "dynamicBidding"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#dexwg-trigr-iqber-kdizo
@@ -9608,14 +9592,6 @@ amazonads:foxbb-llsoi-ctbtl-sgmjd rdf:type owl:DatatypeProperty ;
                                   rdfs:label "grossClickThroughs" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#fponn-dlmkt-jjbus-rdytt
-amazonads:fponn-dlmkt-jjbus-rdytt rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Type of budget for the campaign" ;
-                                  rdfs:label "budgetType"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#fqcft-zchif-rfmnb-wgoha
 amazonads:fqcft-zchif-rfmnb-wgoha rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:dtpfp-bagms-fowtv-gldgw ;
@@ -9959,14 +9935,6 @@ amazonads:gtvll-nqfjt-fmsnb-pjtdd rdf:type owl:DatatypeProperty ;
                                   rdfs:label "brandedSearchesViews" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#gudud-rifah-samip-dogok
-amazonads:gudud-rifah-samip-dogok rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Location of the products being advertised." ;
-                                  rdfs:label "productLocation"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#gujiz-gupar-jopis-kukuh
 amazonads:gujiz-gupar-jopis-kukuh rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:llyoy-zfnad-mfwpw-pwzrv ;
@@ -10041,9 +10009,9 @@ amazonads:gysyv-rwmqs-qkosx-atnxl rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#hafim-gasoz-fonah-bivim
 amazonads:hafim-gasoz-fonah-bivim rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:integer ;
-                                  rdfs:isDefinedBy "Date when the campaign was last updated." ;
-                                  rdfs:label "lastUpdatedDate"@en .
+                                  rdfs:range xsd:boolean ;
+                                  rdfs:isDefinedBy "Boolean to track if bid is being optimized by Amazon" ;
+                                  rdfs:label "bidOptimization"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#hakuh-fafod-dozug-hunad
@@ -10712,8 +10680,8 @@ amazonads:iyugl-kpuwa-qapsa-lbjuj rdf:type owl:DatatypeProperty ;
 amazonads:iywnf-tkota-eorqi-bgmlf rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Shows the current status of the campaign's serving." ;
-                                  rdfs:label "servingStatus"@en .
+                                  rdfs:isDefinedBy "All products targetted by this brand campaign" ;
+                                  rdfs:label "products"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#iyzcz-yeohi-wwduz-wpapq
@@ -10738,14 +10706,6 @@ amazonads:jarop-ribup-fanav-rakim rdf:type owl:DatatypeProperty ;
                                   rdfs:range xsd:dateTimeStamp ;
                                   rdfs:isDefinedBy "Date and time when the ad group was last updated." ;
                                   rdfs:label "lastUpdatedDateTime"@en .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#jasun-nadif-tinah-tamor
-amazonads:jasun-nadif-tinah-tamor rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Unique identifier for the brand entity." ;
-                                  rdfs:label "brandEntityId"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#jazuh-mital-zivat-sosar
@@ -11188,8 +11148,8 @@ amazonads:kdhtr-kxxir-jjxsk-nitks rdf:type owl:DatatypeProperty ;
 amazonads:kdjeq-wiqpi-gksbr-zljbd rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Type of cost associated with the campaign (e.g., CPC, CPM)." ;
-                                  rdfs:label "costType"@en .
+                                  rdfs:isDefinedBy "landingPageUrl" ;
+                                  rdfs:label "landingPageUrl"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#kdlgg-shpmt-mqdfi-elulu
@@ -11404,9 +11364,9 @@ amazonads:konik-vatot-hajin-bazuj rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#kopid-subud-durop-bibuh
 amazonads:kopid-subud-durop-bibuh rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:float ;
+                                  rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "Represents the budget value set by a rule." ;
-                                  rdfs:label "ruleBasedBudgetValue"@en .
+                                  rdfs:label "creativeVideoAssetId"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#kptxx-ixsuj-lvceh-cwpec
@@ -11615,7 +11575,7 @@ amazonads:linib-vonim-roduj-jiroz rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "Identifier for the applicable rule for rule-based budgeting." ;
-                                  rdfs:label "ruleBasedBudgetApplicableRuleId"@en .
+                                  rdfs:label "creativeHeadline"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#linjh-voeqd-ynamt-uwqmf
@@ -11728,20 +11688,12 @@ amazonads:lmsvm-paaxv-zkygo-hajdb rdf:type owl:DatatypeProperty ;
                                   rdfs:label "newToBrandSales" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#lnwcw-gaitk-yniju-pmsgs
-amazonads:lnwcw-gaitk-yniju-pmsgs rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:integer ;
-                                  rdfs:isDefinedBy "Date when the campaign was created." ;
-                                  rdfs:label "creationDate"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#lovak-lilib-mamut-vofot
 amazonads:lovak-lilib-mamut-vofot rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "Name of the applicable rule for rule-based budgeting." ;
-                                  rdfs:label "ruleBasedBudgetApplicableRuleName"@en .
+                                  rdfs:label "creativeBrandLogoAssetId"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#lpaov-oegvn-tsomg-tvssr
@@ -12339,14 +12291,6 @@ amazonads:mzmcd-zbrpo-zoswo-foezn rdf:type owl:DatatypeProperty ;
                                   rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "newToBrandUnitsSoldPercentage" ;
                                   rdfs:label "newToBrandUnitsSoldPercentage" .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#nanur-poruh-zunih-vinik
-amazonads:nanur-poruh-zunih-vinik rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:float ;
-                                  rdfs:isDefinedBy "Effective budget for the campaign" ;
-                                  rdfs:label "effectiveBudget"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#naqma-scgki-xudce-vyqkb
@@ -14502,22 +14446,6 @@ amazonads:sisuw-mfspt-jdfhb-vkuhn rdf:type owl:DatatypeProperty ;
                                   rdfs:label "royaltyQualifiedBorrowsFromViews" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#sizsk-edrfd-mkqgh-kltdn
-amazonads:sizsk-edrfd-mkqgh-kltdn rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:float ;
-                                  rdfs:isDefinedBy "Daily budget for the campaign" ;
-                                  rdfs:label "budget"@en .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#sjbjq-wgtnf-upwma-glvwt
-amazonads:sjbjq-wgtnf-upwma-glvwt rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Current serving status of the campaign" ;
-                                  rdfs:label "servingStatus"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#sjbtu-ozswx-lfuqa-trbpj
 amazonads:sjbtu-ozswx-lfuqa-trbpj rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:hglql-irplu-ftpwx-yggoh ;
@@ -14584,9 +14512,9 @@ amazonads:sofab-zulol-romak-totah rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#sohos-habor-sozud-tofot
 amazonads:sohos-habor-sozud-tofot rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
-                                  rdfs:range xsd:boolean ;
+                                  rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "Indicates if a rule-based budget is in use." ;
-                                  rdfs:label "ruleBasedBudgetIsProcessing"@en .
+                                  rdfs:label "creativeBrandName"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#sohur-hopik-somaf-rifaz
@@ -14791,7 +14719,7 @@ amazonads:tavuv-ropos-fovuf-dikob rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
                                   rdfs:isDefinedBy "The bidding strategy used for the campaign." ;
-                                  rdfs:label "bidding"@en .
+                                  rdfs:label "adFormat"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#tbgwl-oryqx-jsfuy-yrpjy
@@ -15093,8 +15021,8 @@ amazonads:tswew-hkrdj-jdbxv-gbnzz rdf:type owl:DatatypeProperty ;
 amazonads:tulop-vihip-sukod-ritos rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:boolean ;
-                                  rdfs:isDefinedBy "Indicates if multiple ad groups are enabled for the campaign." ;
-                                  rdfs:label "isMultiAdGroupsEnabled"@en .
+                                  rdfs:isDefinedBy "Type of landing page like \"store\", \"custom\", or \"product\"" ;
+                                  rdfs:label "landingPageType"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#tumio-ziupy-erxvk-qsfcw
@@ -16857,8 +16785,8 @@ amazonads:yngbx-vheuz-azhhn-qqvuh rdf:type owl:DatatypeProperty ;
 amazonads:ynlsn-jdjnr-pyxeo-yobpz rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "The primary objective of the campaign (e.g., brand awareness, sales)." ;
-                                  rdfs:label "goal"@en .
+                                  rdfs:isDefinedBy "campaignType" ;
+                                  rdfs:label "campaignType"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#ynqrv-rzszj-mgqnj-ttvkf
@@ -16962,7 +16890,7 @@ amazonads:yszdg-zxqar-liqpo-ztoiy rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
                                   rdfs:range xsd:float ;
                                   rdfs:isDefinedBy "Total budget allocated for the campaign." ;
-                                  rdfs:label "budget"@en .
+                                  rdfs:label "budgetAmount"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#yszxx-qlnzp-psjst-fpluc
@@ -17069,28 +16997,12 @@ amazonads:zadiv-guzuj-pipok-gihib rdf:type owl:DatatypeProperty ;
                                   rdfs:label "landingPageUrl"@en .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#zalat-zovuz-mikuz-vidoj
-amazonads:zalat-zovuz-mikuz-vidoj rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:jonus-gavak-mibob-dihol ;
-                                  rdfs:range xsd:string ;
-                                  rdfs:isDefinedBy "Type of targeting expression" ;
-                                  rdfs:label "expressionType"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#zaphy-iqmob-gtrza-rjmaq
 amazonads:zaphy-iqmob-gtrza-rjmaq rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:sespv-jrcoh-aeucz-bdtzr ;
                                   rdfs:range xsd:decimal ;
                                   rdfs:isDefinedBy "videoUnmutes" ;
                                   rdfs:label "videoUnmutes" .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#zavag-zifak-titul-fujip
-amazonads:zavag-zifak-titul-fujip rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:aybkc-sksea-hdvvu-rlfss ;
-                                  rdfs:range xsd:dateTimeStamp ;
-                                  rdfs:isDefinedBy "Date and time when the campaign was last updated" ;
-                                  rdfs:label "lastUpdateDateTime"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#zcazg-whihf-ocyfs-otuqb
@@ -35702,8 +35614,7 @@ amazonads:napim-bonop-zuror-zubun rdf:type owl:Class ;
   adGroupId,
   campaignId,
   state,
-  bid,
-  expressionType
+  bid
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_targeting_clauses`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35828,14 +35739,7 @@ amazonads:supin-zazis-gurag-darob rdf:type owl:Class ;
   name,
   targetingType,
   state,
-  dynamicBidding,
-  startDate,
-  JSON_EXTRACT_SCALAR(budget, '$.budget') as budget,
-  JSON_EXTRACT_SCALAR(budget, '$.budgetType') as budgetType,
-  JSON_EXTRACT_SCALAR(budget, '$.effectiveBudget') as effectiveBudget,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDateTime') as lastUpdateDateTime,
-  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDateTime') as creationDateTime
+  startDate
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_products_campaigns`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35938,7 +35842,7 @@ amazonads:vipuk-pagir-mulov-dopum rdf:type owl:Class ;
                                   :query """WITH base_table as (
   SELECT
     targetId,
-    JSON_EXTRACT_ARRAY(resolvedExpression) as expressions
+    JSON_EXTRACT_ARRAY(resolvedExpressions) as expressions
   from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_targeting_clauses`
   WHERE date(_time_loaded) >= date('#cutoff_timestamp')
 )
@@ -36002,27 +35906,24 @@ amazonads:zibos-fozim-mozut-rofon rdf:type owl:Class ;
                                   rdfs:isDefinedBy "A class representing a Sponsored Brand campaign" ;
                                   rdfs:label "SponsoredBrandCampaign"@en ;
                                   :query """SELECT
-  productLocation,
-  bidding,
-  isMultiAdGroupsEnabled,
-  brandEntityId,
-  JSON_EXTRACT_SCALAR(ruleBasedBudget, '$.applicableRuleId') as ruleBasedBudgetApplicableRuleId,
-  JSON_EXTRACT_SCALAR(ruleBasedBudget, '$.value') as ruleBasedBudgetValue,
-  JSON_EXTRACT_SCALAR(ruleBasedBudget, '$.applicableRuleName') as ruleBasedBudgetApplicableRuleName,
-  JSON_EXTRACT_SCALAR(ruleBasedBudget, '$.isProcessing') as ruleBasedBudgetIsProcessing,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdatedDate') as lastUpdatedDate,
-  budget,
-  budgetType,
   campaignId,
-  costType,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as creationDate,
-  endDate,
-  goal,
   name,
-  portfolioId,
-  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
+  campaignType,
+  budgetType,
+  budgetAmount,
+  adFormat,
+  JSON_EXTRACT_SCALAR(creative, '$.headline') as creativeHeadline,
+  JSON_EXTRACT_SCALAR(creative, '$.brandLogoAssetId') as creativeBrandLogoAssetId,
+  JSON_EXTRACT_SCALAR(creative, '$.brandName') as creativeBrandName,
+  JSON_EXTRACT_SCALAR(creative, '$.videoAssetId') as creativeVideoAssetId,
+  JSON_EXTRACT_SCALAR(landingPage, '$.url') as landingPageUrl,
+  JSON_EXTRACT_SCALAR(landingPage, '$.pageType') as landingPageType,
+  state,
   startDate,
-  state
+  endDate,
+  portfolioId,
+  bidOptimization,
+  products
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_campaigns`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -36073,9 +35974,9 @@ amazonads:zohod-mitav-motam-napul rdf:type owl:Class ;
   state,
   bid,
   adGroupId,
-  creationDateTime,
-  lastUpdateDateTime,
-  servingStatus
+  JSON_EXTRACT_SCALAR(extendedData, '$.creationDateTime') as creationDateTime,
+ JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDateTime') as lastUpdateDateTime,
+ JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_products_targeting_clauses`
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -36085,8 +35986,7 @@ amazonads:zopit-tamal-rotah-kilup rdf:type owl:Class ;
                                   rdfs:subClassOf amazonads:husul-mofag-hamor-mitog ;
                                   rdfs:isDefinedBy "A class representing a category within the Amazon product catalog" ;
                                   rdfs:label "AmazonCategory"@en ;
-                                  :query """SELECT * FROM `cohesyve-us.#database_id.sb_product_targeting_category`
-WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
+                                  :query "" .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#zujir-sosir-kiror-pafaz
