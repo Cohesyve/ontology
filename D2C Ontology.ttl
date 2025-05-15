@@ -21683,6 +21683,12 @@ facebook_ads:gazuh-hilus-fugig-gidan rdf:type owl:DatatypeProperty ;
                                      rdfs:label "is_personal" .
 
 
+###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#gazuk-nujoj-fajis-paman
+facebook_ads:gazuk-nujoj-fajis-paman rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:label "impressions"@en .
+
+
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#gikak-kisun-hafot-duhol
 facebook_ads:gikak-kisun-hafot-duhol rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:kulak-lasul-makun-rifuk ;
@@ -22194,6 +22200,12 @@ facebook_ads:karuk-rogam-hisus-rakuk rdf:type owl:DatatypeProperty ;
                                      rdfs:range xsd:string ;
                                      rdfs:isDefinedBy "salesforce unique invoice id" ;
                                      rdfs:label "salesforce_invoice_group_id" .
+
+
+###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#kigos-zolus-visug-huhuz
+facebook_ads:kigos-zolus-visug-huhuz rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:label "spend"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#kilif-sibit-pizit-tamul
@@ -23496,6 +23508,12 @@ facebook_ads:ziduv-bamoz-popoh-jolat rdf:type owl:DatatypeProperty ;
                                      rdfs:range xsd:float ;
                                      rdfs:isDefinedBy "engagementRate by Traffic source" ;
                                      rdfs:label "engagementRate" .
+
+
+###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#zifip-lujal-loriv-rotoz
+facebook_ads:zifip-lujal-loriv-rotoz rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:label "clicks"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#zitap-gahil-nijit-gapah
