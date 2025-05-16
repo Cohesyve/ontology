@@ -21686,6 +21686,7 @@ facebook_ads:gazuh-hilus-fugig-gidan rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#gazuk-nujoj-fajis-paman
 facebook_ads:gazuk-nujoj-fajis-paman rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:range xsd:integer ;
                                      rdfs:label "impressions"@en .
 
 
@@ -22205,6 +22206,7 @@ facebook_ads:karuk-rogam-hisus-rakuk rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#kigos-zolus-visug-huhuz
 facebook_ads:kigos-zolus-visug-huhuz rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:range xsd:float ;
                                      rdfs:label "spend"@en .
 
 
@@ -23513,6 +23515,7 @@ facebook_ads:ziduv-bamoz-popoh-jolat rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#zifip-lujal-loriv-rotoz
 facebook_ads:zifip-lujal-loriv-rotoz rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:range xsd:integer ;
                                      rdfs:label "clicks"@en .
 
 
