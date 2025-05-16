@@ -32732,7 +32732,7 @@ shopify:ksras-ltaxp-orhjl-owvyf rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Shopify#ksuem-ymzro-sdzsm-svnpx
 shopify:ksuem-ymzro-sdzsm-svnpx rdf:type owl:DatatypeProperty ;
                                 rdfs:subPropertyOf shopify:csmoi-yfvcz-pvxcv-uqgmi ;
-                                rdfs:range xsd:integer ;
+                                rdfs:range xsd:string ;
                                 rdfs:isDefinedBy "tracks all modifications including discounts, fees, and price adjustments" ;
                                 rdfs:label "order_number"@en .
 
