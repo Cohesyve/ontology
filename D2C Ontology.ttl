@@ -21620,6 +21620,13 @@ facebook_ads:fopoj-jugum-rilak-fusud rdf:type owl:DatatypeProperty ;
                                      rdfs:label "agency_client_declaration_client_based_in_france" .
 
 
+###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#foron-kilap-banuf-nupav
+facebook_ads:foron-kilap-banuf-nupav rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf facebook_ads:hajam-lubit-gubog-tidaj ;
+                                     rdfs:range xsd:dateTime ;
+                                     rdfs:label "created_time"@en .
+
+
 ###  https://www.cohesyve.com/ontologies/Platforms/FacebookAds#fukap-muguv-mogat-zogoz
 facebook_ads:fukap-muguv-mogat-zogoz rdf:type owl:DatatypeProperty ;
                                      rdfs:subPropertyOf facebook_ads:pabif-folaj-pibop-lopat ;
