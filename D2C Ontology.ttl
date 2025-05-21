@@ -30573,7 +30573,7 @@ razorpay:abrpm-gzymu-omrfi-lgxcq rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#acwqw-hdrxt-tnnyp-bepop
 razorpay:acwqw-hdrxt-tnnyp-bepop rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:pszrc-kufmo-ruufl-fhdom ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -30589,7 +30589,7 @@ razorpay:anjwp-yqmeu-jxyky-nvlgy rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#auxfz-ipiqk-kakhd-bfnwr
 razorpay:auxfz-ipiqk-kakhd-bfnwr rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:nakmv-rfzav-msluz-kuqfw ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -30636,7 +30636,7 @@ razorpay:bwfqd-rwjqa-bdiqz-fiqft rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#ceask-uqxbl-hknjy-syxoc
 razorpay:ceask-uqxbl-hknjy-syxoc rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:uvotj-rwnqh-ridxd-zakgi ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -30756,7 +30756,7 @@ razorpay:jxpsb-jngig-ruxat-lcbco rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#kaqgb-wfdzf-aufjl-zncyr
 razorpay:kaqgb-wfdzf-aufjl-zncyr rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:uvotj-rwnqh-ridxd-zakgi ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "respond_by" ;
                                  rdfs:label "respond_by" .
 
@@ -30948,7 +30948,7 @@ razorpay:rfalv-rrlxe-wmgsg-wcqag rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#rkhgj-swzyc-nmjgb-hmuqd
 razorpay:rkhgj-swzyc-nmjgb-hmuqd rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:cugis-psbik-ldsmd-zxnlx ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -30988,7 +30988,7 @@ razorpay:sowts-crhfc-ckduj-fpjll rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#stbll-zdzmq-turkj-fgmvr
 razorpay:stbll-zdzmq-turkj-fgmvr rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:bcwtd-leuur-ibgep-hiswd ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -31219,7 +31219,7 @@ razorpay:zqcmi-xyspo-aokch-qwqjt rdf:type owl:DatatypeProperty ;
 ###  https://www.cohesyve.com/ontologies/Platforms/Razorpay#zzzub-ibros-yfbzd-ietks
 razorpay:zzzub-ibros-yfbzd-ietks rdf:type owl:DatatypeProperty ;
                                  rdfs:subPropertyOf razorpay:zkepx-ivkjc-wfqek-azium ;
-                                 rdfs:range xsd:integer ;
+                                 rdfs:range xsd:dateTimeStamp ;
                                  rdfs:isDefinedBy "created_at" ;
                                  rdfs:label "created_at" .
 
@@ -41619,7 +41619,7 @@ razorpay:bmjly-rxlnj-opvzv-ojcyg rdf:type owl:Class ;
   (t.`fees`/100) AS `fees`,
   (t.`tax`/100) AS `tax`,
   t.`utr` AS `utr`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   t._time_loaded
 FROM
   `cohesyve-us.#database_id.razorpay__settlements` AS t
@@ -41656,7 +41656,7 @@ razorpay:jgqnn-foiny-awedt-cttmu rdf:type owl:Class ;
   t.`offer_id` AS `offer_id`,
   t.`status` AS `status`,
   t.`attempts` AS `attempts`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   t._time_loaded
 FROM
   `cohesyve-us.#database_id.razorpay__orders` AS t
@@ -41685,7 +41685,7 @@ razorpay:tjqpg-piyms-llmjz-nlytq rdf:type owl:Class ;
   t.`email` AS `email`,
   t.`contact` AS `contact`,
   t.`gstin` AS `gstin`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   t._time_loaded
 FROM
   `cohesyve-us.#database_id.razorpay__customers` AS t
@@ -41707,7 +41707,7 @@ razorpay:tlpbt-sgosp-nequk-vhluq rdf:type owl:Class ;
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`acquirer_data`, '$.rrn') AS STRING) AS `acquirer_data_rrn`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`acquirer_data`, '$.arn') AS STRING) AS `acquirer_data_arn`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`acquirer_data`, '$.utr') AS STRING) AS `acquirer_data_utr`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   t.`batch_id` AS `batch_id`,
   t.`status` AS `status`,
   t.`speed_processed` AS `speed_processed`,
@@ -41751,7 +41751,7 @@ razorpay:vhbcd-gjolt-bxmyh-rxors rdf:type owl:Class ;
   t.`error_step` AS `error_step`,
   t.`error_reason` AS `error_reason`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`acquirer_data`, '$.bank_transaction_id') AS STRING) AS `acquirer_data_bank_transaction_id`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   t._time_loaded
 FROM
   `cohesyve-us.#database_id.razorpay__payments` AS t
@@ -41771,10 +41771,10 @@ razorpay:yztna-cyfay-isoml-uhelz rdf:type owl:Class ;
   t.`currency` AS `currency`,
   (t.`amount_deducted`/100) AS `amount_deducted`,
   t.`reason_code` AS `reason_code`,
-  t.`respond_by` AS `respond_by`,
+  TIMESTAMP_SECONDS(t.`respond_by`) AS `respond_by`,
   t.`status` AS `status`,
   t.`phase` AS `phase`,
-  t.`created_at` AS `created_at`,
+  TIMESTAMP_SECONDS(t.`created_at`) AS `created_at`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`evidence`, '$.amount') AS STRING) AS `evidence_amount`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`evidence`, '$.summary') AS STRING) AS `evidence_summary`,
   SAFE_CAST(JSON_EXTRACT_SCALAR(t.`evidence`, '$.shipping_proof') AS STRING) AS `evidence_shipping_proof`,
