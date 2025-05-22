@@ -35166,9 +35166,9 @@ amazonads:fikid-gigug-lafoh-jigik rdf:type owl:Class ;
   name,
   state,
   adGroupId,
-  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35428,9 +35428,9 @@ amazonads:lakin-dufah-mugup-hupir rdf:type owl:Class ;
   name,
   state,
   adGroupId,
-  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35473,9 +35473,9 @@ amazonads:likob-hugav-gubam-haruh rdf:type owl:Class ;
   adGroupId,
   tactic,
   creativeType,
-  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35736,9 +35736,9 @@ amazonads:pujiv-sival-rizim-jokuf rdf:type owl:Class ;
   adName,
   asin,
   sku,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35840,9 +35840,9 @@ amazonads:tusoz-gumah-mopis-fimar rdf:type owl:Class ;
   state,
   sku,
   adGroupId,
-  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_products_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35989,9 +35989,9 @@ amazonads:zisok-rifat-sarov-sojov rdf:type owl:Class ;
   state,
   adGroupId,
   defaultBid,
-  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
+TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
 from `cohesyve-us.#database_id.amazon_advertising__sponsored_products_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
