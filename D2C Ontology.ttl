@@ -11353,6 +11353,14 @@ amazonads:kojnm-tvqnp-djort-lsowa rdf:type owl:DatatypeProperty ;
                                   rdfs:label "impressions" .
 
 
+###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#konik-vatot-hajin-bazuj
+amazonads:konik-vatot-hajin-bazuj rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf amazonads:xysvp-zxutq-jcalx-igrye ;
+                                  rdfs:range xsd:dateTimeStamp ;
+                                  rdfs:isDefinedBy "The most recent date when the ad group was modified" ;
+                                  rdfs:label "lastUpdateDate"@en .
+
+
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#kopid-subud-durop-bibuh
 amazonads:kopid-subud-durop-bibuh rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
@@ -16395,6 +16403,14 @@ amazonads:xjsam-skllb-itxxt-hfmyt rdf:type owl:DatatypeProperty ;
                                   rdfs:isDefinedBy "campaignId" ;
                                   rdfs:label "campaignId" ;
                                   :isPrimaryKey "true"^^xsd:boolean .
+
+
+###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#xjyfd-mujom-wrxyi-dlxio
+amazonads:xjyfd-mujom-wrxyi-dlxio rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf amazonads:xysvp-zxutq-jcalx-igrye ;
+                                  rdfs:range xsd:dateTimeStamp ;
+                                  rdfs:isDefinedBy "The date when the ad group was created" ;
+                                  rdfs:label "creationDate"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#xkyfk-tloyu-cvbrn-ixwbo
@@ -35150,9 +35166,9 @@ amazonads:fikid-gigug-lafoh-jigik rdf:type owl:Class ;
   name,
   state,
   adGroupId,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as lastUpdateDate,
+  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as creationDate
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35412,9 +35428,9 @@ amazonads:lakin-dufah-mugup-hupir rdf:type owl:Class ;
   name,
   state,
   adGroupId,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as lastUpdateDate,
+  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as creationDate
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from `cohesyve-us.#database_id.amazon_advertising__sponsored_brands_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35456,7 +35472,10 @@ amazonads:likob-hugav-gubam-haruh rdf:type owl:Class ;
   state,
   adGroupId,
   tactic,
-  creativeType
+  creativeType,
+  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35716,7 +35735,10 @@ amazonads:pujiv-sival-rizim-jokuf rdf:type owl:Class ;
   landingPageType,
   adName,
   asin,
-  sku
+  sku,
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
+  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35818,9 +35840,9 @@ amazonads:tusoz-gumah-mopis-fimar rdf:type owl:Class ;
   state,
   sku,
   adGroupId,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDateTime') as lastUpdateDateTime,
+  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDateTime') as creationDateTime
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_products_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
@@ -35967,9 +35989,9 @@ amazonads:zisok-rifat-sarov-sojov rdf:type owl:Class ;
   state,
   adGroupId,
   defaultBid,
-  JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdatedDateTime') as lastUpdatedDateTime,
+  TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate')) as lastUpdateDate,
   JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-  JSON_EXTRACT_SCALAR(extendedData, '$.creationDateTime') as creationDateTime
+TIMESTAMP_SECONDS(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate')) as creationDate
 from `cohesyve-us.#database_id.amazon_advertising__sponsored_products_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
