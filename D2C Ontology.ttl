@@ -11353,14 +11353,6 @@ amazonads:kojnm-tvqnp-djort-lsowa rdf:type owl:DatatypeProperty ;
                                   rdfs:label "impressions" .
 
 
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#konik-vatot-hajin-bazuj
-amazonads:konik-vatot-hajin-bazuj rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:xysvp-zxutq-jcalx-igrye ;
-                                  rdfs:range xsd:dateTimeStamp ;
-                                  rdfs:isDefinedBy "The most recent date when the ad group was modified" ;
-                                  rdfs:label "lastUpdateDate"@en .
-
-
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#kopid-subud-durop-bibuh
 amazonads:kopid-subud-durop-bibuh rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf amazonads:tvthm-qqxxn-jxjee-gflwl ;
@@ -16403,14 +16395,6 @@ amazonads:xjsam-skllb-itxxt-hfmyt rdf:type owl:DatatypeProperty ;
                                   rdfs:isDefinedBy "campaignId" ;
                                   rdfs:label "campaignId" ;
                                   :isPrimaryKey "true"^^xsd:boolean .
-
-
-###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#xjyfd-mujom-wrxyi-dlxio
-amazonads:xjyfd-mujom-wrxyi-dlxio rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf amazonads:xysvp-zxutq-jcalx-igrye ;
-                                  rdfs:range xsd:dateTimeStamp ;
-                                  rdfs:isDefinedBy "The date when the ad group was created" ;
-                                  rdfs:label "creationDate"@en .
 
 
 ###  https://www.cohesyve.com/ontologies/Platforms/AmazonAds#xkyfk-tloyu-cvbrn-ixwbo
