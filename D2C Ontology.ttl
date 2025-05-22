@@ -35472,10 +35472,7 @@ amazonads:likob-hugav-gubam-haruh rdf:type owl:Class ;
   state,
   adGroupId,
   tactic,
-  creativeType,
-TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
-  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
+  creativeType
 from  `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ad_groups` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
 
@@ -35735,10 +35732,7 @@ amazonads:pujiv-sival-rizim-jokuf rdf:type owl:Class ;
   landingPageType,
   adName,
   asin,
-  sku,
-TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.lastUpdateDate') as INT64)) as lastUpdateDate,
-  JSON_EXTRACT_SCALAR(extendedData, '$.servingStatus') as servingStatus,
-TIMESTAMP_MILLIS(CAST(JSON_EXTRACT_SCALAR(extendedData, '$.creationDate') as INT64)) as creationDate
+  sku
 from 
   `cohesyve-us.#database_id.amazon_advertising__sponsored_display_ads` 
 WHERE date(_time_loaded) >= date('#cutoff_timestamp')""" .
