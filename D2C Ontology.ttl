@@ -2,6 +2,7 @@
 @prefix amazon_seller_central: <https://www.cohesyve.com/ontologies/Platforms/AmazonSellerCentral#> .
 @prefix amazonads: <https://www.cohesyve.com/ontologies/Platforms/AmazonAds#> .
 @prefix cohesyve: <https://www.cohesyve.com/ontologies/Platforms/Cohesyve#> .
+@prefix easyecom: <https://www.cohesyve.com/ontologies/Platforms/EasyEcom#> .
 @prefix facebook_ads: <https://www.cohesyve.com/ontologies/Platforms/FacebookAds#> .
 @prefix faire: <https://www.cohesyve.com/ontologies/Platform/Faire#> .
 @prefix google_ads: <https://www.cohesyve.com/ontologies/Platforms/GoogleAds#> .
@@ -13705,6 +13706,1889 @@ cohesyve:vabat-bisus-vomuv-pabih a owl:ObjectProperty ;
     rdfs:isDefinedBy "Indicates the destination of a shipment" ;
     rdfs:range cohesyve:mazim-soput-nopak-zumid ;
     rdfs:subPropertyOf cohesyve:numak-tijik-soruv-movav .
+
+easyecom:abhmi-euysw-oxlax-fenku a owl:DatatypeProperty ;
+    rdfs:label "marketplace_invoice_num" ;
+    rdfs:isDefinedBy "marketplace_invoice_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:adjyc-cbktt-cgusk-vmmbu a owl:DatatypeProperty ;
+    rdfs:label "mrp" ;
+    rdfs:isDefinedBy "mrp" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:agucn-kfyjh-htlkn-qazyu a owl:DatatypeProperty ;
+    rdfs:label "pickup_pin_code" ;
+    rdfs:isDefinedBy "pickup_pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:amoao-euchi-bdwgg-zzdir a owl:DatatypeProperty ;
+    rdfs:label "cp_inventory" ;
+    rdfs:isDefinedBy "cp_inventory" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:aqotx-ylnxf-fknqm-uuxxt a owl:DatatypeProperty ;
+    rdfs:label "po_status_id" ;
+    rdfs:isDefinedBy "po_status_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:atcac-mxgbl-tkbqi-injfo a owl:ObjectProperty ;
+    rdfs:label "hasShippingHistoryItem"@en ;
+    rdfs:domain easyecom:sxjyp-ltmff-dwnlp-rhbku ;
+    rdfs:range easyecom:syulz-bbmgv-nanxw-tzajy ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:auekl-zwxch-gjnuh-hmwqu a owl:DatatypeProperty ;
+    rdfs:label "Package Height" ;
+    rdfs:isDefinedBy "Package Height" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ayibi-slmry-xqgud-iwsou a owl:DatatypeProperty ;
+    rdfs:label "po_number" ;
+    rdfs:isDefinedBy "po_number" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:azmjc-hiqsx-clyaf-hqrvv a owl:DatatypeProperty ;
+    rdfs:label "payment_gateway_transaction_number" ;
+    rdfs:isDefinedBy "payment_gateway_transaction_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:baqqs-bxabp-yrmob-eobyc a owl:DatatypeProperty ;
+    rdfs:label "marketplace" ;
+    rdfs:isDefinedBy "marketplace" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:beztz-elgot-jxehj-hlois a owl:DatatypeProperty ;
+    rdfs:label "hsn_code" ;
+    rdfs:isDefinedBy "hsn_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:bfmrv-tiacd-nqamp-vwuud a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_address_line_1" ;
+    rdfs:isDefinedBy "forward_shipment_customer_address_line_1" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:bhgjy-fggcs-xnnou-epxzo a owl:DatatypeProperty ;
+    rdfs:label "replacement_order" ;
+    rdfs:isDefinedBy "replacement_order" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:bipva-fmwyp-xtxnt-qlqdo a owl:DatatypeProperty ;
+    rdfs:label "product_image_url" ;
+    rdfs:isDefinedBy "product_image_url" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:bkcuk-wrtkr-zqkwb-jxglr a owl:DatatypeProperty ;
+    rdfs:label "address_line_2" ;
+    rdfs:isDefinedBy "address_line_2" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:botxz-dkzih-nclwe-xhfiu a owl:DatatypeProperty ;
+    rdfs:label "company_name" ;
+    rdfs:isDefinedBy "company_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:bplag-sbggq-uewjn-wpcbo a owl:DatatypeProperty ;
+    rdfs:label "cost" ;
+    rdfs:isDefinedBy "cost" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:bural-ametj-liljr-irwbd a owl:DatatypeProperty ;
+    rdfs:label "suborder_count" ;
+    rdfs:isDefinedBy "suborder_count" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:cbwhc-cknzh-bdvld-ahojk a owl:DatatypeProperty ;
+    rdfs:label "cost" ;
+    rdfs:isDefinedBy "cost" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:cbxni-qkaoj-fkofq-nhtdn a owl:DatatypeProperty ;
+    rdfs:label "po_id" ;
+    rdfs:isDefinedBy "po_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs ;
+    :isPrimaryKey true .
+
+easyecom:ccauq-yvulp-npsfw-zcseg a owl:DatatypeProperty ;
+    rdfs:label "payment_mode_id" ;
+    rdfs:isDefinedBy "payment_mode_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ceccz-tczvq-wjldq-rcqlk a owl:DatatypeProperty ;
+    rdfs:label "tcs_rate" ;
+    rdfs:isDefinedBy "tcs_rate" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:cflht-pajdx-bhiws-pukgp a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_country" ;
+    rdfs:isDefinedBy "forward_shipment_customer_country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:cjcap-yxyfq-zwqgq-hyvjk a owl:DatatypeProperty ;
+    rdfs:label "cost" ;
+    rdfs:isDefinedBy "cost" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:cmowf-msfyj-cpxmg-bkajr a owl:DatatypeProperty ;
+    rdfs:label "credit_note_date" ;
+    rdfs:isDefinedBy "credit_note_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:cnhxq-namtr-vzqqu-dspin a owl:DatatypeProperty ;
+    rdfs:label "accounting_sku" ;
+    rdfs:isDefinedBy "accounting_sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:cqwja-bgyqt-mvhka-haecu a owl:DatatypeProperty ;
+    rdfs:label "Parent_product_id" ;
+    rdfs:isDefinedBy "Parent_product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:oyrbv-qawmn-cfpbe-izgnu ;
+    owl:equivalentProperty easyecom:oprdh-crfhp-ldafn-aniya .
+
+easyecom:cvyuq-ksgxw-jknrl-hpfvu a owl:DatatypeProperty ;
+    rdfs:label "height" ;
+    rdfs:isDefinedBy "height" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:cwove-yraod-wlvdj-taepa a owl:DatatypeProperty ;
+    rdfs:label "invoice_id" ;
+    rdfs:isDefinedBy "invoice_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:cyctd-xhzdb-pzgac-jnjsw a owl:DatatypeProperty ;
+    rdfs:label "pickup_state" ;
+    rdfs:isDefinedBy "pickup_state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ddrtr-yfino-xfdcl-wwqyh a owl:DatatypeProperty ;
+    rdfs:label "size" ;
+    rdfs:isDefinedBy "size" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:dfkos-egwaw-lokii-wsili a owl:DatatypeProperty ;
+    rdfs:label "po_created_warehouse_c_id" ;
+    rdfs:isDefinedBy "po_created_warehouse_c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:dfmbk-mgyyu-dfunc-vlbmj a owl:DatatypeProperty ;
+    rdfs:label "marketplace_credit_note_num" ;
+    rdfs:isDefinedBy "marketplace_credit_note_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:dfsrr-jxlxg-lanxz-iqihd a owl:DatatypeProperty ;
+    rdfs:label "quantity" ;
+    rdfs:isDefinedBy "quantity" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:dglwx-dsdsk-ydxst-kzfdd a owl:DatatypeProperty ;
+    rdfs:label "import_warehouse_id" ;
+    rdfs:isDefinedBy "import_warehouse_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:dgonq-ijdwj-aqclr-rzkrl a owl:DatatypeProperty ;
+    rdfs:label "payment_mode" ;
+    rdfs:isDefinedBy "payment_mode" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:djhqz-ccvrr-prise-dplgi a owl:DatatypeProperty ;
+    rdfs:label "salesmanUserId" ;
+    rdfs:isDefinedBy "salesmanUserId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:dlsbr-ijkqa-edskv-wudge a owl:DatatypeProperty ;
+    rdfs:label "po_ref_num" ;
+    rdfs:isDefinedBy "po_ref_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:dnasq-ntbux-nkhxk-szydm a owl:DatatypeProperty ;
+    rdfs:label "product_image_url" ;
+    rdfs:isDefinedBy "product_image_url" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:dnzuy-yrwrq-vwfsk-ehhyh a owl:DatatypeProperty ;
+    rdfs:label "hsn_code" ;
+    rdfs:isDefinedBy "hsn_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:dqrxv-nskbe-xcbhv-bjcqu a owl:DatatypeProperty ;
+    rdfs:label "category_id" ;
+    rdfs:isDefinedBy "category_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:dqxmg-deigr-bsgly-lsvin a owl:DatatypeProperty ;
+    rdfs:label "model_no" ;
+    rdfs:isDefinedBy "model_no" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:drggx-yytye-azvfp-rzrzx a owl:ObjectProperty ;
+    rdfs:label "hasSubProductsItem"@en ;
+    rdfs:domain easyecom:ovmko-mzwsm-ewkmr-nomyg ;
+    rdfs:range easyecom:htgkq-blcdn-ygbqt-zlsvk ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:drqpv-aplek-vgncl-zmrkw a owl:DatatypeProperty ;
+    rdfs:label "mrp" ;
+    rdfs:isDefinedBy "mrp" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:dtbgm-gvtnu-aekpr-xqutu a owl:DatatypeProperty ;
+    rdfs:label "company_name" ;
+    rdfs:isDefinedBy "company_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:durme-ycfxt-vysng-ksfcu a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_address_line_2" ;
+    rdfs:isDefinedBy "forward_shipment_customer_address_line_2" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:dyahi-yiwii-hdgul-qknbx a owl:DatatypeProperty ;
+    rdfs:label "sku" ;
+    rdfs:isDefinedBy "sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:dzwtb-ghajf-ijkqh-dpjhr a owl:DatatypeProperty ;
+    rdfs:label "accounting_sku" ;
+    rdfs:isDefinedBy "accounting_sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:ecieu-fleyo-ctdhu-guypx a owl:DatatypeProperty ;
+    rdfs:label "accounting_sku" ;
+    rdfs:isDefinedBy "accounting_sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:egwzc-kjvws-jmqpf-wsudb a owl:DatatypeProperty ;
+    rdfs:label "vendor_name" ;
+    rdfs:isDefinedBy "vendor_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:ehuvk-tkukr-mhvdp-zlfjr a owl:DatatypeProperty ;
+    rdfs:label "category" ;
+    rdfs:isDefinedBy "category" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:ejcam-amnqw-umwkd-gzmxc a owl:DatatypeProperty ;
+    rdfs:label "order_type_key" ;
+    rdfs:isDefinedBy "order_type_key" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ekztv-vuwws-tjubf-tifnk a owl:DatatypeProperty ;
+    rdfs:label "weight" ;
+    rdfs:isDefinedBy "weight" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:elaxp-valvk-wtyzh-nehvb a owl:DatatypeProperty ;
+    rdfs:label "weight" ;
+    rdfs:isDefinedBy "weight" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:elzpx-qeqeo-dwegv-bcedn a owl:DatatypeProperty ;
+    rdfs:label "marketplace_id" ;
+    rdfs:isDefinedBy "marketplace_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:entee-ahmcc-ilkth-cqwyt a owl:DatatypeProperty ;
+    rdfs:label "import_date" ;
+    rdfs:isDefinedBy "import_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:epjbh-szkex-osvmi-eidhj a owl:DatatypeProperty ;
+    rdfs:label "po_created_warehouse" ;
+    rdfs:isDefinedBy "po_created_warehouse" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:eqijg-tmrrj-xeepe-ixgzn a owl:DatatypeProperty ;
+    rdfs:label "tax_rate" ;
+    rdfs:isDefinedBy "tax_rate" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:etqdf-tvyzv-wkoct-ateiy a owl:DatatypeProperty ;
+    rdfs:label "salesmanUserId" ;
+    rdfs:isDefinedBy "salesmanUserId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:etyuw-aiokt-ssxbc-ywebr a owl:DatatypeProperty ;
+    rdfs:label "billing_name" ;
+    rdfs:isDefinedBy "billing_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:euwfn-lwloz-qvofe-msujp a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_pin_code" ;
+    rdfs:isDefinedBy "forward_shipment_billing_pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ezlnx-nxbls-qaocy-cpzkn a owl:DatatypeProperty ;
+    rdfs:label "billing_city" ;
+    rdfs:isDefinedBy "billing_city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:featw-lteot-jyscy-ooxle a owl:DatatypeProperty ;
+    rdfs:label "mrp" ;
+    rdfs:isDefinedBy "mrp" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:flgvx-uymvd-tcweb-zcvty a owl:DatatypeProperty ;
+    rdfs:label "billing_state_code" ;
+    rdfs:isDefinedBy "billing_state_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:flmpe-ctgjg-kaltf-rrzvg a owl:DatatypeProperty ;
+    rdfs:label "tax_rule_name" ;
+    rdfs:isDefinedBy "tax_rule_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:fmevr-wrnix-ostss-jswve a owl:DatatypeProperty ;
+    rdfs:label "manifest_date" ;
+    rdfs:isDefinedBy "manifest_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:fqhxi-vwryw-odsko-knuqw a owl:DatatypeProperty ;
+    rdfs:label "c_id" ;
+    rdfs:isDefinedBy "c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx ;
+    :isPrimaryKey true .
+
+easyecom:fqmaw-fbybj-mssdh-riepb a owl:DatatypeProperty ;
+    rdfs:label "tax_rule_name" ;
+    rdfs:isDefinedBy "tax_rule_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:fqume-rtzns-azqwv-xrlzl a owl:DatatypeProperty ;
+    rdfs:label "created_at" ;
+    rdfs:isDefinedBy "created_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:fthtl-tkxfm-yexxy-adkwj a owl:DatatypeProperty ;
+    rdfs:label "product shelf life" ;
+    rdfs:isDefinedBy "product shelf life" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:fvkrx-voeyl-akxya-inbge a owl:DatatypeProperty ;
+    rdfs:label "modelName" ;
+    rdfs:isDefinedBy "modelName" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:fvvii-fldrf-krugw-ypofc a owl:DatatypeProperty ;
+    rdfs:label "product_name" ;
+    rdfs:isDefinedBy "product_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:fxrbx-pycxy-vwxxq-buuxg a owl:DatatypeProperty ;
+    rdfs:label "message" ;
+    rdfs:isDefinedBy "message" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:fxuvw-wansb-tfcrj-tlzzp a owl:DatatypeProperty ;
+    rdfs:label "payment_mode_id" ;
+    rdfs:isDefinedBy "payment_mode_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:fyjec-ngyoo-bdrhs-milpg a owl:DatatypeProperty ;
+    rdfs:label "size" ;
+    rdfs:isDefinedBy "size" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:geunx-ahdmn-imdxv-yvwer a owl:DatatypeProperty ;
+    rdfs:label "total_shipping_charge" ;
+    rdfs:isDefinedBy "total_shipping_charge" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ggvxb-rketq-qzdho-uhpve a owl:DatatypeProperty ;
+    rdfs:label "inventory" ;
+    rdfs:isDefinedBy "inventory" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:ghbat-bfgan-qtums-omxsg a owl:DatatypeProperty ;
+    rdfs:label "order_priority" ;
+    rdfs:isDefinedBy "order_priority" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:gikqm-rrnbv-wxzzp-utkns a owl:DatatypeProperty ;
+    rdfs:label "last_update_date" ;
+    rdfs:isDefinedBy "last_update_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:gkrbh-bjzqp-yrajc-vmvsh a owl:DatatypeProperty ;
+    rdfs:label "state" ;
+    rdfs:isDefinedBy "state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:gnrof-bgswt-lwphc-vbdjn a owl:DatatypeProperty ;
+    rdfs:label "order_type" ;
+    rdfs:isDefinedBy "order_type" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:gpujr-jqoif-dytsj-apgtv a owl:DatatypeProperty ;
+    rdfs:label "batch_created_at" ;
+    rdfs:isDefinedBy "batch_created_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:grqle-vskbr-rolma-tqcpj a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_mobile" ;
+    rdfs:isDefinedBy "forward_shipment_billing_mobile" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:gyhwt-rxrsl-rwspy-tdlbj a owl:DatatypeProperty ;
+    rdfs:label "invoice_date" ;
+    rdfs:isDefinedBy "invoice_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:hfkcd-fdkwh-wygfa-hiqev a owl:DatatypeProperty ;
+    rdfs:label "customer_name" ;
+    rdfs:isDefinedBy "customer_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:hgthr-yxtyu-rgtuy-nblrc a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_state" ;
+    rdfs:isDefinedBy "forward_shipment_billing_state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:hhlqt-rbxns-qdiny-ubvpt a owl:DatatypeProperty ;
+    rdfs:label "lastname" ;
+    rdfs:isDefinedBy "lastname" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml .
+
+easyecom:hjbtz-xrrsr-chxwc-qpoqi a owl:DatatypeProperty ;
+    rdfs:label "inventory" ;
+    rdfs:isDefinedBy "inventory" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:hjojv-lfujw-haoej-fkmxz a owl:DatatypeProperty ;
+    rdfs:label "modelNumber" ;
+    rdfs:isDefinedBy "modelNumber" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:hjyxg-fpafm-xhurl-vwrsp a owl:DatatypeProperty ;
+    rdfs:label "tax_rate" ;
+    rdfs:isDefinedBy "tax_rate" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:hkizu-blxhh-uvxie-kupkf a owl:DatatypeProperty ;
+    rdfs:label "vendor_c_id" ;
+    rdfs:isDefinedBy "vendor_c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml ;
+    :isPrimaryKey true .
+
+easyecom:hkvju-kgxpj-svzne-cpisv a owl:DatatypeProperty ;
+    rdfs:label "additional_images" ;
+    rdfs:isDefinedBy "additional_images" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:hmxsl-uhkcw-pdjks-uahgz a owl:DatatypeProperty ;
+    rdfs:label "size" ;
+    rdfs:isDefinedBy "size" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:hpcxv-rmpkp-omewi-kqgfc a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_pickup_country" ;
+    rdfs:isDefinedBy "forward_shipment_pickup_country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:hptxr-qtzpp-lzpmw-iunln a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_pickup_address" ;
+    rdfs:isDefinedBy "forward_shipment_pickup_address" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:hqaob-oqyio-czlpv-bbvlb a owl:DatatypeProperty ;
+    rdfs:label "category_name" ;
+    rdfs:isDefinedBy "category_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:hqmte-aokbw-rtqak-cikzs a owl:DatatypeProperty ;
+    rdfs:label "grn_id" ;
+    rdfs:isDefinedBy "grn_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr ;
+    :isPrimaryKey true .
+
+easyecom:htpbk-kesml-swurc-wxrtn a owl:DatatypeProperty ;
+    rdfs:label "length" ;
+    rdfs:isDefinedBy "length" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:hwhdz-pxkdu-qwnyo-uvvqk a owl:DatatypeProperty ;
+    rdfs:label "po_created_date" ;
+    rdfs:isDefinedBy "po_created_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:hwnex-osqow-clvkv-owsud a owl:DatatypeProperty ;
+    rdfs:label "city" ;
+    rdfs:isDefinedBy "city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:icihl-isfiz-gcpus-ddkfy a owl:DatatypeProperty ;
+    rdfs:label "country" ;
+    rdfs:isDefinedBy "country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ifjjl-nzkwt-ruvhh-bdcil a owl:DatatypeProperty ;
+    rdfs:label "order_quantity" ;
+    rdfs:isDefinedBy "order_quantity" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ihjex-ctkqj-kdvqk-doefr a owl:DatatypeProperty ;
+    rdfs:label "order_quantity" ;
+    rdfs:isDefinedBy "order_quantity" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ijkta-brijb-mhvms-qwamx a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:isDefinedBy "latitude" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:imgng-dfcnp-mxkuy-nheen a owl:ObjectProperty ;
+    rdfs:label "hasAdditionalImagesItem"@en ;
+    rdfs:domain easyecom:htgkq-blcdn-ygbqt-zlsvk ;
+    rdfs:range easyecom:rbyqj-kkdce-aebxo-nakio ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:iomdm-ymkyj-hldst-tsxrj a owl:ObjectProperty ;
+    rdfs:label "hasVendorCodeItem"@en ;
+    rdfs:domain easyecom:ovmko-mzwsm-ewkmr-nomyg ;
+    rdfs:range easyecom:vuuxw-pmvrm-tfhgw-grgqy ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:iozcc-wxqtp-yobtx-wzkpu a owl:DatatypeProperty ;
+    rdfs:label "return_date" ;
+    rdfs:isDefinedBy "return_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ipovm-aayhd-aaxqg-jkaka a owl:DatatypeProperty ;
+    rdfs:label "total_tax" ;
+    rdfs:isDefinedBy "total_tax" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:iqiqb-egqxp-yevnh-zepzr a owl:DatatypeProperty ;
+    rdfs:label "sku" ;
+    rdfs:isDefinedBy "sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:iqqqh-qxpiz-vmwos-qpmbb a owl:DatatypeProperty ;
+    rdfs:label "hsn_code" ;
+    rdfs:isDefinedBy "hsn_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:izeev-asbxn-wjfhq-gcfbe a owl:DatatypeProperty ;
+    rdfs:label "invoice_number" ;
+    rdfs:isDefinedBy "invoice_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:izigv-iakge-lamko-okpph a owl:DatatypeProperty ;
+    rdfs:label "width" ;
+    rdfs:isDefinedBy "width" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:jbukr-yclwq-mfuti-nluuq a owl:DatatypeProperty ;
+    rdfs:label "po_created_date" ;
+    rdfs:isDefinedBy "po_created_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:jcxan-gmczi-aiwnd-qzacn a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_pickup_pin_code" ;
+    rdfs:isDefinedBy "forward_shipment_pickup_pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:jeadm-elior-cvknu-wfzof a owl:DatatypeProperty ;
+    rdfs:label "delivery_date" ;
+    rdfs:isDefinedBy "delivery_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jfiwq-qvbpj-leskf-fosbo a owl:DatatypeProperty ;
+    rdfs:label "pickup_state_code" ;
+    rdfs:isDefinedBy "pickup_state_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jfnfb-qakex-dtqae-yyoev a owl:DatatypeProperty ;
+    rdfs:label "brand_id" ;
+    rdfs:isDefinedBy "brand_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:jfpoi-iqhsj-poeuw-qojgz a owl:DatatypeProperty ;
+    rdfs:label "invoice_currency_code" ;
+    rdfs:isDefinedBy "invoice_currency_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jfuyu-rdohr-bsjyy-pxtdu a owl:DatatypeProperty ;
+    rdfs:label "warehouseId" ;
+    rdfs:isDefinedBy "warehouseId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jhowv-hhebu-enfnu-nsgap a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_address_2" ;
+    rdfs:isDefinedBy "forward_shipment_billing_address_2" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:jlsdt-hexih-qdvqa-bmzrh a owl:DatatypeProperty ;
+    rdfs:label "marketplace" ;
+    rdfs:isDefinedBy "marketplace" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:jlyto-xuwmp-zroai-zhona a owl:DatatypeProperty ;
+    rdfs:label "marketplace_invoice_num" ;
+    rdfs:isDefinedBy "marketplace_invoice_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jmqnz-xksjp-wgefw-zppkm a owl:DatatypeProperty ;
+    rdfs:label "billing_mobile" ;
+    rdfs:isDefinedBy "billing_mobile" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:jmwmf-daknm-nfxwa-jcccy a owl:DatatypeProperty ;
+    rdfs:label "brand_id" ;
+    rdfs:isDefinedBy "brand_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:jnhtn-xyrdy-huaow-npdru a owl:DatatypeProperty ;
+    rdfs:label "po_id" ;
+    rdfs:isDefinedBy "po_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:jqkvo-ndjlz-ijxqp-ackgc a owl:DatatypeProperty ;
+    rdfs:label "brand_id" ;
+    rdfs:isDefinedBy "brand_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:jsgdc-yihof-pbgip-ivmuj a owl:DatatypeProperty ;
+    rdfs:label "vendor_name" ;
+    rdfs:isDefinedBy "vendor_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:jwauy-sbnxc-ejkuu-hlxmu a owl:DatatypeProperty ;
+    rdfs:label "print_datetime" ;
+    rdfs:isDefinedBy "print_datetime" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:xnkrf-mqvhx-incjk-aqidn .
+
+easyecom:jwncm-qdmdf-ycjci-ztkhg a owl:DatatypeProperty ;
+    rdfs:label "length" ;
+    rdfs:isDefinedBy "length" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:jyhou-abvud-vvdsj-twdcs a owl:DatatypeProperty ;
+    rdfs:label "manifest_no" ;
+    rdfs:isDefinedBy "manifest_no" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:jyjbj-gyjug-nabjw-qoenm a owl:DatatypeProperty ;
+    rdfs:label "queue_message" ;
+    rdfs:isDefinedBy "queue_message" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:kasmu-sbbov-upshu-njcsn a owl:DatatypeProperty ;
+    rdfs:label "pickup_country" ;
+    rdfs:isDefinedBy "pickup_country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:kcltz-sduhd-irgiz-buzzv a owl:DatatypeProperty ;
+    rdfs:label "reference_code" ;
+    rdfs:isDefinedBy "reference_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:kcztr-uwtfd-yxqoi-givmo a owl:DatatypeProperty ;
+    rdfs:label "combo_cp_id" ;
+    rdfs:isDefinedBy "combo_cp_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:kfjmf-hgxzy-vpzpd-fborc a owl:DatatypeProperty ;
+    rdfs:label "custom_fields" ;
+    rdfs:isDefinedBy "custom_fields" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:kickq-acpyf-akypy-mtmyr a owl:DatatypeProperty ;
+    rdfs:label "seller_gst" ;
+    rdfs:isDefinedBy "seller_gst" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:klfle-ygdzh-hbauj-flssn a owl:DatatypeProperty ;
+    rdfs:label "po_ref_num" ;
+    rdfs:isDefinedBy "po_ref_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:kmwwf-arkdn-thake-lwmxj a owl:DatatypeProperty ;
+    rdfs:label "location_key" ;
+    rdfs:isDefinedBy "location_key" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:kmyaq-bzbgf-jeuir-ficfl a owl:DatatypeProperty ;
+    rdfs:label "replacement_order" ;
+    rdfs:isDefinedBy "replacement_order" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:knppy-wkllg-obbmk-pjlys a owl:DatatypeProperty ;
+    rdfs:label "enabled" ;
+    rdfs:isDefinedBy "enabled" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:mkgcs-udpkp-hczvi-ncnak .
+
+easyecom:kqsxv-tyykx-byuwy-weerh a owl:DatatypeProperty ;
+    rdfs:label "length" ;
+    rdfs:isDefinedBy "length" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:ktrgb-wthdd-zkftv-usqfi a owl:DatatypeProperty ;
+    rdfs:label "payment_gateway_name" ;
+    rdfs:isDefinedBy "payment_gateway_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:kvibt-ylbpk-myyuo-vdiut a owl:DatatypeProperty ;
+    rdfs:label "EANUPC" ;
+    rdfs:isDefinedBy "EANUPC" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:kyvtw-qwcbq-annnv-ogtfq a owl:DatatypeProperty ;
+    rdfs:label "weight" ;
+    rdfs:isDefinedBy "weight" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:lchwu-rctfh-admia-ojngr a owl:DatatypeProperty ;
+    rdfs:label "order_type_key" ;
+    rdfs:isDefinedBy "order_type_key" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:lgqcr-lffrf-jwrjd-santl a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_address_1" ;
+    rdfs:isDefinedBy "forward_shipment_billing_address_1" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:lidpp-ibept-dweye-snhwy a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_pin_code" ;
+    rdfs:isDefinedBy "forward_shipment_customer_pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ljesq-uhdre-othtd-wbxnt a owl:DatatypeProperty ;
+    rdfs:label "inwarded_warehouse_c_id" ;
+    rdfs:isDefinedBy "inwarded_warehouse_c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:ljgdn-borhj-xjzpk-dvpws a owl:DatatypeProperty ;
+    rdfs:label "size" ;
+    rdfs:isDefinedBy "size" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:lmrgq-xzmwr-yagex-qjuyg a owl:DatatypeProperty ;
+    rdfs:label "invoice_number" ;
+    rdfs:isDefinedBy "invoice_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:lqeek-uavla-kfkum-ujetk a owl:DatatypeProperty ;
+    rdfs:label "Package Length" ;
+    rdfs:isDefinedBy "Package Length" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:lrjyi-khsqy-btumb-yrwkd a owl:DatatypeProperty ;
+    rdfs:label "seller_gst" ;
+    rdfs:isDefinedBy "seller_gst" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:lswkb-ucxwd-bzboa-kcbyj a owl:DatatypeProperty ;
+    rdfs:label "customer_code" ;
+    rdfs:isDefinedBy "customer_code" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:lzsaf-rlprb-lychz-ujavg a owl:DatatypeProperty ;
+    rdfs:label "contact_num" ;
+    rdfs:isDefinedBy "contact_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:lzsev-pxzez-ixjyx-dspoy a owl:DatatypeProperty ;
+    rdfs:label "pickup_address" ;
+    rdfs:isDefinedBy "pickup_address" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mahay-wumfu-yztcs-czlly a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:isDefinedBy "description" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:mcyks-wtucf-gektr-vrsgs a owl:DatatypeProperty ;
+    rdfs:label "shipping_last_update_date" ;
+    rdfs:isDefinedBy "shipping_last_update_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mepeo-ztzgw-fylyf-lxqdj a owl:DatatypeProperty ;
+    rdfs:label "active" ;
+    rdfs:isDefinedBy "active" ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:mfjdh-zdiev-kcihh-hojaf a owl:DatatypeProperty ;
+    rdfs:label "order_status_id" ;
+    rdfs:isDefinedBy "order_status_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mftcy-trlye-liyev-tgxvz a owl:DatatypeProperty ;
+    rdfs:label "brand" ;
+    rdfs:isDefinedBy "brand" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:mhrqo-novsj-jnfbq-lcdmm a owl:DatatypeProperty ;
+    rdfs:label "company_name" ;
+    rdfs:isDefinedBy "company_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:mjjvn-vrogz-crccf-ykfrn a owl:DatatypeProperty ;
+    rdfs:label "available_after" ;
+    rdfs:isDefinedBy "available_after" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mlgyb-aqlhe-okzet-crvcd a owl:DatatypeProperty ;
+    rdfs:label "batch_created_at" ;
+    rdfs:isDefinedBy "batch_created_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:mroic-dojno-ubjbl-rhkov a owl:DatatypeProperty ;
+    rdfs:label "fulfillable_status" ;
+    rdfs:isDefinedBy "fulfillable_status" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mspuo-ofpcn-ysnea-tkiwr a owl:DatatypeProperty ;
+    rdfs:label "Package Width" ;
+    rdfs:isDefinedBy "Package Width" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:mubpb-dzjtw-ymbwb-exrcy a owl:DatatypeProperty ;
+    rdfs:label "warehouseId" ;
+    rdfs:isDefinedBy "warehouseId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:naiua-icewh-wxdvd-ddubz a owl:DatatypeProperty ;
+    rdfs:label "weight" ;
+    rdfs:isDefinedBy "weight" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:ngcgy-cimoc-ujggk-fefff a owl:DatatypeProperty ;
+    rdfs:label "billing_state" ;
+    rdfs:isDefinedBy "billing_state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ngqbd-gbhmw-qwpki-yyifl a owl:DatatypeProperty ;
+    rdfs:label "model_no" ;
+    rdfs:isDefinedBy "model_no" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:niypz-usgzz-epcjk-qqbjr a owl:DatatypeProperty ;
+    rdfs:label "updated_at" ;
+    rdfs:isDefinedBy "updated_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:nlqsc-iniei-cilal-bfpem a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_state" ;
+    rdfs:isDefinedBy "forward_shipment_customer_state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:nnbgt-rfwzs-ezjir-unspx a owl:DatatypeProperty ;
+    rdfs:label "tat" ;
+    rdfs:isDefinedBy "tat" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:nofal-xcaxz-wacyl-oqcxq a owl:DatatypeProperty ;
+    rdfs:label "width" ;
+    rdfs:isDefinedBy "width" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:nseyo-kftay-zgheh-ouqfl a owl:DatatypeProperty ;
+    rdfs:label "pin_code" ;
+    rdfs:isDefinedBy "pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:nvmkf-zdjco-tjcpr-qccpn a owl:DatatypeProperty ;
+    rdfs:label "cp_inventory" ;
+    rdfs:isDefinedBy "cp_inventory" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:nwpjy-ooqyu-gcklm-abdbk a owl:DatatypeProperty ;
+    rdfs:label "cpId" ;
+    rdfs:isDefinedBy "cpId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:nwrxp-yijkv-iijkl-eyaez a owl:DatatypeProperty ;
+    rdfs:label "Package Weight" ;
+    rdfs:isDefinedBy "Package Weight" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:nxvwm-llulq-yagyt-ranrq a owl:DatatypeProperty ;
+    rdfs:label "cost" ;
+    rdfs:isDefinedBy "cost" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:obnjj-nnqgx-kxqqi-crgok a owl:DatatypeProperty ;
+    rdfs:label "order_id" ;
+    rdfs:isDefinedBy "order_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ofedl-qtgcl-zyzjm-dmirz a owl:DatatypeProperty ;
+    rdfs:label "Parent_product_id" ;
+    rdfs:isDefinedBy "Parent_product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj ;
+    owl:equivalentProperty easyecom:oprdh-crfhp-ldafn-aniya .
+
+easyecom:ohhhf-niscv-larjc-ndlea a owl:DatatypeProperty ;
+    rdfs:label "parent_cpId" ;
+    rdfs:isDefinedBy "parent_cpId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:ohpgh-rkqru-ylbwg-hvymj a owl:DatatypeProperty ;
+    rdfs:label "brand" ;
+    rdfs:isDefinedBy "brand" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:ohzfj-wlrip-bprhr-xomah a owl:DatatypeProperty ;
+    rdfs:label "order_type" ;
+    rdfs:isDefinedBy "order_type" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:oirrn-xvced-upauo-vjene a owl:DatatypeProperty ;
+    rdfs:label "tcs_amount" ;
+    rdfs:isDefinedBy "tcs_amount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:olcbs-sktnv-rrdfd-wzfmm a owl:DatatypeProperty ;
+    rdfs:label "product_name" ;
+    rdfs:isDefinedBy "product_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:omnbb-ibrfi-gynku-mqbfy a owl:DatatypeProperty ;
+    rdfs:label "po_updated_date" ;
+    rdfs:isDefinedBy "po_updated_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:omzgk-qizjo-qwutr-hwfsv a owl:DatatypeProperty ;
+    rdfs:label "AdditionalImagesValue" ;
+    rdfs:isDefinedBy "AdditionalImagesValue" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:kippk-nbiyk-kgqqs-claix .
+
+easyecom:onbbp-ebuvd-fmqas-hloxc a owl:DatatypeProperty ;
+    rdfs:label "total_amount" ;
+    rdfs:isDefinedBy "total_amount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:onrkc-jndtc-iaxwj-toota a owl:DatatypeProperty ;
+    rdfs:label "reference_code" ;
+    rdfs:isDefinedBy "reference_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:onzyk-wjdfk-qhgob-lusts a owl:DatatypeProperty ;
+    rdfs:label "import_warehouse_name" ;
+    rdfs:isDefinedBy "import_warehouse_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:oooyc-hxseo-rpnqu-sciuc a owl:DatatypeProperty ;
+    rdfs:label "lastUpdateDate" ;
+    rdfs:isDefinedBy "lastUpdateDate" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:osahf-rdjza-qcdhg-kclfb a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_country" ;
+    rdfs:isDefinedBy "forward_shipment_billing_country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ouxiy-kzuvu-yeqpe-hqiyf a owl:DatatypeProperty ;
+    rdfs:label "awb_number" ;
+    rdfs:isDefinedBy "awb_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:oxcal-fejsw-wjgek-jjmqd a owl:DatatypeProperty ;
+    rdfs:label "cpId" ;
+    rdfs:isDefinedBy "cpId" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:oxjbi-ydxma-jttkj-mahdc a owl:DatatypeProperty ;
+    rdfs:label "grn_created_at" ;
+    rdfs:isDefinedBy "grn_created_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:oxvms-omvlj-utqct-aysdj a owl:DatatypeProperty ;
+    rdfs:label "buyer_gst" ;
+    rdfs:isDefinedBy "buyer_gst" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ozysm-vgzvd-gzbzz-fyheb a owl:DatatypeProperty ;
+    rdfs:label "inwarded_warehouse" ;
+    rdfs:isDefinedBy "inwarded_warehouse" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:pepgt-ussjl-htcfm-nyypc a owl:DatatypeProperty ;
+    rdfs:label "width" ;
+    rdfs:isDefinedBy "width" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:pgbbe-zasrh-rcieh-lkcul a owl:DatatypeProperty ;
+    rdfs:label "product_image_url" ;
+    rdfs:isDefinedBy "product_image_url" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:phgjd-xadut-rsvoc-aeqvs a owl:DatatypeProperty ;
+    rdfs:label "batch_id" ;
+    rdfs:isDefinedBy "batch_id" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ppdrk-sihsj-ktqol-oxxbx a owl:DatatypeProperty ;
+    rdfs:label "EANUPC" ;
+    rdfs:isDefinedBy "EANUPC" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:ppqhq-oavln-jopkk-riphx a owl:DatatypeProperty ;
+    rdfs:label "buyer_gst" ;
+    rdfs:isDefinedBy "buyer_gst" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:psmxn-ezutw-oenfe-lknle a owl:DatatypeProperty ;
+    rdfs:label "total_discount" ;
+    rdfs:isDefinedBy "total_discount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:puiji-gphna-tlrug-vctzx a owl:DatatypeProperty ;
+    rdfs:label "shipping_status" ;
+    rdfs:isDefinedBy "shipping_status" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:pxdtc-wqbbc-dyyzz-pznhu a owl:DatatypeProperty ;
+    rdfs:label "shipping_status_id" ;
+    rdfs:isDefinedBy "shipping_status_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:qdruj-csvkt-qrjxm-xsggo a owl:DatatypeProperty ;
+    rdfs:label "pickup_city" ;
+    rdfs:isDefinedBy "pickup_city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:qdyzl-wkbff-banbx-kfijm a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_pickup_state" ;
+    rdfs:isDefinedBy "forward_shipment_pickup_state" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:qkgmy-edbqq-vpozz-uqaqu a owl:DatatypeProperty ;
+    rdfs:label "Parent_product_id" ;
+    rdfs:isDefinedBy "Parent_product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco ;
+    owl:equivalentProperty easyecom:oprdh-crfhp-ldafn-aniya .
+
+easyecom:qooee-cdhaa-uwjof-vusoq a owl:DatatypeProperty ;
+    rdfs:label "po_updated_date" ;
+    rdfs:isDefinedBy "po_updated_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:qqwxk-wljqu-snsck-sydmi a owl:DatatypeProperty ;
+    rdfs:label "carrier_id" ;
+    rdfs:isDefinedBy "carrier_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:qqzhr-rvyzy-twlnu-pvayo a owl:DatatypeProperty ;
+    rdfs:label "firstname " ;
+    rdfs:isDefinedBy "firstname " ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml .
+
+easyecom:qrfys-zuwdk-japhw-oywny a owl:DatatypeProperty ;
+    rdfs:label "last_update_date" ;
+    rdfs:isDefinedBy "last_update_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:qsyyu-cabbj-wdhwb-jkfib a owl:DatatypeProperty ;
+    rdfs:label "custom_fields" ;
+    rdfs:isDefinedBy "custom_fields" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:qvdca-ktgwc-srtbb-evuax a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_city" ;
+    rdfs:isDefinedBy "forward_shipment_billing_city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:qvoas-jhsqt-luzkx-vggyv a owl:DatatypeProperty ;
+    rdfs:label "height" ;
+    rdfs:isDefinedBy "height" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:reeer-cxxtn-qgjkf-zddmz a owl:DatatypeProperty ;
+    rdfs:label "cp_inventory" ;
+    rdfs:isDefinedBy "cp_inventory" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:rgtat-khqiz-livtp-jksbp a owl:DatatypeProperty ;
+    rdfs:label "c_id" ;
+    rdfs:isDefinedBy "c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:rhgza-sdmbc-pdkrd-awcqk a owl:DatatypeProperty ;
+    rdfs:label "total_invoice_tax" ;
+    rdfs:isDefinedBy "total_invoice_tax" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:rnvru-ctplc-dhplq-yvdvj a owl:DatatypeProperty ;
+    rdfs:label "invoice_collectable_amount" ;
+    rdfs:isDefinedBy "invoice_collectable_amount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:rvbmj-siiou-nvxbb-prfcm a owl:DatatypeProperty ;
+    rdfs:label "billing_pin_code" ;
+    rdfs:isDefinedBy "billing_pin_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:rxlkw-vjefk-rwavi-uczpr a owl:DatatypeProperty ;
+    rdfs:label "Parent_product_id" ;
+    rdfs:isDefinedBy "Parent_product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:mkgcs-udpkp-hczvi-ncnak ;
+    owl:equivalentProperty easyecom:dfhdp-ukksh-txbio-luseu .
+
+easyecom:ryawf-irnkw-tqhrt-rltgi a owl:DatatypeProperty ;
+    rdfs:label "cp_id" ;
+    rdfs:isDefinedBy "cp_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:ryblf-cvvzz-isuea-bltud a owl:DatatypeProperty ;
+    rdfs:label "expiry_type" ;
+    rdfs:isDefinedBy "expiry_type" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:ryemz-sgmuy-wrajc-mkjpn a owl:DatatypeProperty ;
+    rdfs:label "marketplace_id" ;
+    rdfs:isDefinedBy "marketplace_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ryhdo-iwdfu-yzxtk-mjesu a owl:DatatypeProperty ;
+    rdfs:label "category_name" ;
+    rdfs:isDefinedBy "category_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:rzwnb-ojzas-ravow-wtskf a owl:DatatypeProperty ;
+    rdfs:label "email" ;
+    rdfs:isDefinedBy "email" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:sdkko-jpvzl-xfzdu-symja a owl:DatatypeProperty ;
+    rdfs:label "payment_mode" ;
+    rdfs:isDefinedBy "payment_mode" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:sgaln-gfxyc-hytzq-rurlq a owl:DatatypeProperty ;
+    rdfs:label "tax_rate" ;
+    rdfs:isDefinedBy "tax_rate" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:silgp-qjtqy-bhcaa-xskov a owl:DatatypeProperty ;
+    rdfs:label "vendor_code" ;
+    rdfs:isDefinedBy "vendor_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml .
+
+easyecom:sjtqh-jeefe-ygstq-blkkw a owl:DatatypeProperty ;
+    rdfs:label "courier" ;
+    rdfs:isDefinedBy "courier" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:surpf-qegzb-omqme-chojw a owl:DatatypeProperty ;
+    rdfs:label "accounting_unit" ;
+    rdfs:isDefinedBy "accounting_unit" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:svtib-wfpfo-mqgqv-xfaef a owl:DatatypeProperty ;
+    rdfs:label "product_id" ;
+    rdfs:isDefinedBy "product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:sxymx-otckw-acsdn-aruvb a owl:DatatypeProperty ;
+    rdfs:label "manifest_no" ;
+    rdfs:isDefinedBy "manifest_no" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:szslt-kkdky-qnsra-qkuns a owl:DatatypeProperty ;
+    rdfs:label "width" ;
+    rdfs:isDefinedBy "width" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:tbboh-apurq-wwees-erovp a owl:DatatypeProperty ;
+    rdfs:label "accounting_sku" ;
+    rdfs:isDefinedBy "accounting_sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:tbxun-nudvl-afqer-wwbwp a owl:DatatypeProperty ;
+    rdfs:label "active" ;
+    rdfs:isDefinedBy "active" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:teead-nxgwa-gqhdm-decqw a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:isDefinedBy "longitude" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:tmitt-txpbf-eaqlc-hwitn a owl:DatatypeProperty ;
+    rdfs:label "colour" ;
+    rdfs:isDefinedBy "colour" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:tnwsh-gobno-epvfk-nvqml a owl:DatatypeProperty ;
+    rdfs:label "total_invoice_amount" ;
+    rdfs:isDefinedBy "total_invoice_amount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:tnyzs-owrmh-pzdga-latcf a owl:DatatypeProperty ;
+    rdfs:label "cp_id" ;
+    rdfs:isDefinedBy "cp_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:mkgcs-udpkp-hczvi-ncnak .
+
+easyecom:tvjrj-lwoaq-hwgvl-uqfwj a owl:DatatypeProperty ;
+    rdfs:label "product_name" ;
+    rdfs:isDefinedBy "product_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:tvskt-jvpjb-jzpem-zfneq a owl:DatatypeProperty ;
+    rdfs:label "product shelf life" ;
+    rdfs:isDefinedBy "product shelf life" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:uanzu-titex-isfza-umhwj a owl:DatatypeProperty ;
+    rdfs:label "vendor_code" ;
+    rdfs:isDefinedBy "vendor_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:udeqv-xlgco-sgxmp-pbtvs a owl:DatatypeProperty ;
+    rdfs:label "material_type" ;
+    rdfs:isDefinedBy "material_type" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:udytn-kmnvr-uqwqc-sxorb a owl:DatatypeProperty ;
+    rdfs:label "accounting_unit" ;
+    rdfs:isDefinedBy "accounting_unit" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:uedku-dhpkf-jpcng-xuvcf a owl:DatatypeProperty ;
+    rdfs:label "queue_status" ;
+    rdfs:isDefinedBy "queue_status" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:uepqx-qkrmf-rddov-gagvj a owl:DatatypeProperty ;
+    rdfs:label "mrp" ;
+    rdfs:isDefinedBy "mrp" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:uitbx-mwrik-kqepx-yjpwv a owl:DatatypeProperty ;
+    rdfs:label "blockSplit" ;
+    rdfs:isDefinedBy "blockSplit" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:uokyp-qjxzb-arwmv-mxcoh a owl:DatatypeProperty ;
+    rdfs:label "grn_invoice_date" ;
+    rdfs:isDefinedBy "grn_invoice_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:upctc-nwugo-olpji-pemtm a owl:DatatypeProperty ;
+    rdfs:label "po_number" ;
+    rdfs:isDefinedBy "po_number" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:uvrps-tjecj-mafmp-cunde a owl:DatatypeProperty ;
+    rdfs:label "vendor_c_id" ;
+    rdfs:isDefinedBy "vendor_c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:uzoyk-eiryp-wynov-lpmss a owl:DatatypeProperty ;
+    rdfs:label "billing_country" ;
+    rdfs:isDefinedBy "billing_country" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:uztkh-ciqzw-pqewo-aipkz a owl:DatatypeProperty ;
+    rdfs:label "sku" ;
+    rdfs:isDefinedBy "sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:vidzj-mmyqu-zfzlj-wvaqu a owl:DatatypeProperty ;
+    rdfs:label "VendorCodeValue" ;
+    rdfs:isDefinedBy "VendorCodeValue" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:oyrbv-qawmn-cfpbe-izgnu .
+
+easyecom:vppmf-ycmyr-qgojh-zkdaz a owl:DatatypeProperty ;
+    rdfs:label "grn_invoice_number" ;
+    rdfs:isDefinedBy "grn_invoice_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:vqfdl-csmsl-vjncb-xayfd a owl:DatatypeProperty ;
+    rdfs:label "height" ;
+    rdfs:isDefinedBy "height" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:vqhfg-qgwky-vbgsi-otrgg a owl:DatatypeProperty ;
+    rdfs:label "state_code" ;
+    rdfs:isDefinedBy "state_code" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:vtmfw-coquo-wbxyw-zoqda a owl:DatatypeProperty ;
+    rdfs:label "order_status" ;
+    rdfs:isDefinedBy "order_status" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:vtxzd-loprq-yascj-yqfjr a owl:DatatypeProperty ;
+    rdfs:label "qc_pass_datetime" ;
+    rdfs:isDefinedBy "qc_pass_datetime" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:xnkrf-mqvhx-incjk-aqidn .
+
+easyecom:vzurf-tgbtf-xuyvo-vjukz a owl:DatatypeProperty ;
+    rdfs:label "created_at" ;
+    rdfs:isDefinedBy "created_at" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:wdyhi-xlkml-xyayb-zqnae a owl:DatatypeProperty ;
+    rdfs:label "product_type" ;
+    rdfs:isDefinedBy "product_type" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:weaex-zhnca-vmqcg-dwhwz a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_billing_name" ;
+    rdfs:isDefinedBy "forward_shipment_billing_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:wehsc-oyxhl-srolz-uilqe a owl:DatatypeProperty ;
+    rdfs:label "credit_note_number" ;
+    rdfs:isDefinedBy "credit_note_number" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:wfyif-tcmdp-ajkex-uiyls a owl:DatatypeProperty ;
+    rdfs:label "invoice_id" ;
+    rdfs:isDefinedBy "invoice_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:wggex-hceje-xrzys-eaclv a owl:DatatypeProperty ;
+    rdfs:label "import_date" ;
+    rdfs:isDefinedBy "import_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:wimrr-ldehk-btlee-nfwpu a owl:DatatypeProperty ;
+    rdfs:label "brand" ;
+    rdfs:isDefinedBy "brand" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:wipsw-nddji-tltyi-uqvtv a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_pickup_city" ;
+    rdfs:isDefinedBy "forward_shipment_pickup_city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:wmxmu-ydaac-fjjdl-ruani a owl:DatatypeProperty ;
+    rdfs:label "sku" ;
+    rdfs:isDefinedBy "sku" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:wmzow-agniz-rupif-ewvfn a owl:DatatypeProperty ;
+    rdfs:label "vendor_name" ;
+    rdfs:isDefinedBy "vendor_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml .
+
+easyecom:wpkim-uxjbv-xgjlu-gzfon a owl:DatatypeProperty ;
+    rdfs:label "batch_id" ;
+    rdfs:isDefinedBy "batch_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:wqayj-wmszw-haiff-jcgrp a owl:DatatypeProperty ;
+    rdfs:label "total_po_value" ;
+    rdfs:isDefinedBy "total_po_value" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:wshqn-aikdi-kkdrw-dkecc a owl:DatatypeProperty ;
+    rdfs:label "po_status_id" ;
+    rdfs:isDefinedBy "po_status_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:lxgwm-ecuha-kfopd-bawfs .
+
+easyecom:wsomm-sxqec-hwrep-euhxk a owl:DatatypeProperty ;
+    rdfs:label "length" ;
+    rdfs:isDefinedBy "length" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:wssot-ovksa-jyeyr-zlcvj a owl:DatatypeProperty ;
+    rdfs:label "manifest_datetime" ;
+    rdfs:isDefinedBy "manifest_datetime" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:xnkrf-mqvhx-incjk-aqidn .
+
+easyecom:wsxjd-efmuh-jnhtz-hpmsr a owl:DatatypeProperty ;
+    rdfs:label "email" ;
+    rdfs:isDefinedBy "email" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:hiuyd-hlhhy-valdx-mwoml .
+
+easyecom:wurfh-bgnmg-ztnaa-ncuym a owl:DatatypeProperty ;
+    rdfs:label "address_line_1" ;
+    rdfs:isDefinedBy "address_line_1" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:wuxja-ykyos-kxjsa-eyalw a owl:DatatypeProperty ;
+    rdfs:label "Parent_order_id" ;
+    rdfs:isDefinedBy "Parent_order_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:xnkrf-mqvhx-incjk-aqidn ;
+    owl:equivalentProperty easyecom:nvdmm-axqmm-xyihu-njnwi .
+
+easyecom:wvdzh-yjqsv-hbeti-exrfg a owl:DatatypeProperty ;
+    rdfs:label "cp_sub_products_count" ;
+    rdfs:isDefinedBy "cp_sub_products_count" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:wxnmh-btczt-jytay-oehid a owl:DatatypeProperty ;
+    rdfs:label "category_id" ;
+    rdfs:isDefinedBy "category_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:xaaop-yjvmg-uqcxi-xemki a owl:DatatypeProperty ;
+    rdfs:label "qcPassed" ;
+    rdfs:isDefinedBy "qcPassed" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:xbtkb-sncfk-mswrc-jwgoz a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_contact_num" ;
+    rdfs:isDefinedBy "forward_shipment_customer_contact_num" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:xesfm-fjdti-sriwz-qwrjw a owl:DatatypeProperty ;
+    rdfs:label "colour" ;
+    rdfs:isDefinedBy "colour" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:xfqve-kaoql-ujlli-jnila a owl:DatatypeProperty ;
+    rdfs:label "add_date" ;
+    rdfs:isDefinedBy "add_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:xhaxi-vdwpg-ftetk-wmsma a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_name" ;
+    rdfs:isDefinedBy "forward_shipment_customer_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:xjsyi-tlihz-xhpdx-qlxqp a owl:ObjectProperty ;
+    rdfs:label "hasCustomFieldsItem"@en ;
+    rdfs:domain easyecom:ioxgv-cepws-zbhhu-hnzcm ;
+    rdfs:range easyecom:mjzaa-xhvyi-gdogd-rprrq ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:xnhio-fuhyl-bneap-pvhfe a owl:ObjectProperty ;
+    rdfs:label "hasVariantsItem"@en ;
+    rdfs:domain easyecom:ovmko-mzwsm-ewkmr-nomyg ;
+    rdfs:range easyecom:ioxgv-cepws-zbhhu-hnzcm ;
+    rdfs:subPropertyOf easyecom:wcewz-dtpen-huolt-rtiuj .
+
+easyecom:xtczp-phvsy-gorfy-ipqxk a owl:DatatypeProperty ;
+    rdfs:label "accounting_unit" ;
+    rdfs:isDefinedBy "accounting_unit" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:xyncl-mlkxt-lbumj-bhekc a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:isDefinedBy "value" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:mkgcs-udpkp-hczvi-ncnak .
+
+easyecom:ycdvj-rjltl-lewnk-kovoz a owl:DatatypeProperty ;
+    rdfs:label "grn_status" ;
+    rdfs:isDefinedBy "grn_status" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:yepec-qbcnk-hublf-fwgyw a owl:DatatypeProperty ;
+    rdfs:label "confirm_datetime" ;
+    rdfs:isDefinedBy "confirm_datetime" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:xnkrf-mqvhx-incjk-aqidn .
+
+easyecom:yhfpw-mjrel-kytzb-zlyby a owl:DatatypeProperty ;
+    rdfs:label "grn_status_id" ;
+    rdfs:isDefinedBy "grn_status_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:ykqmt-cwpkr-mpeat-erlry a owl:DatatypeProperty ;
+    rdfs:label "height" ;
+    rdfs:isDefinedBy "height" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:ypdck-sosdt-hhxdg-nrsri a owl:DatatypeProperty ;
+    rdfs:label "vendor_c_id" ;
+    rdfs:isDefinedBy "vendor_c_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:ypufw-eadpv-lxhjg-lhnlm a owl:DatatypeProperty ;
+    rdfs:label "collectable_amount" ;
+    rdfs:isDefinedBy "collectable_amount" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:ywtuw-rbqmu-oupts-lplzw a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_city" ;
+    rdfs:isDefinedBy "forward_shipment_customer_city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:ywxla-zwgow-onwzb-uawga a owl:DatatypeProperty ;
+    rdfs:label "billing_address_2" ;
+    rdfs:isDefinedBy "billing_address_2" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:yxyfh-zurqk-mhcuy-vlsvw a owl:DatatypeProperty ;
+    rdfs:label "HSNCode" ;
+    rdfs:isDefinedBy "HSNCode" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:yzted-bttvj-ccxxy-mihsk a owl:DatatypeProperty ;
+    rdfs:label "billing_address_1" ;
+    rdfs:isDefinedBy "billing_address_1" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:zarzw-kdbmf-zpjor-fopax a owl:DatatypeProperty ;
+    rdfs:label "order_date" ;
+    rdfs:isDefinedBy "order_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:zcnrj-esqkt-wmirf-dobre a owl:DatatypeProperty ;
+    rdfs:label "courier_aggregator_name" ;
+    rdfs:isDefinedBy "courier_aggregator_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
+
+easyecom:zdpgd-nplgs-labgy-mizwa a owl:DatatypeProperty ;
+    rdfs:label "invoice_date" ;
+    rdfs:isDefinedBy "invoice_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:zfmmh-nldro-jramc-mzshk a owl:DatatypeProperty ;
+    rdfs:label "colour" ;
+    rdfs:isDefinedBy "colour" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:zhrls-wrtlx-gshye-kbyrh a owl:DatatypeProperty ;
+    rdfs:label "forward_shipment_customer_email" ;
+    rdfs:isDefinedBy "forward_shipment_customer_email" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:zlsra-qhzgu-nxefk-pwamm a owl:DatatypeProperty ;
+    rdfs:label "product shelf life" ;
+    rdfs:isDefinedBy "product shelf life" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:zmybt-veage-awicc-lyepv a owl:DatatypeProperty ;
+    rdfs:label "order_date" ;
+    rdfs:isDefinedBy "order_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu .
+
+easyecom:zqgka-wbbxa-iztso-bedcf a owl:DatatypeProperty ;
+    rdfs:label "total_grn_value" ;
+    rdfs:isDefinedBy "total_grn_value" ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf easyecom:zmmwz-qfwsk-eynyf-pcnqr .
+
+easyecom:zslml-afugy-tfzep-knbre a owl:DatatypeProperty ;
+    rdfs:label "Parent_product_id" ;
+    rdfs:isDefinedBy "Parent_product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:kippk-nbiyk-kgqqs-claix ;
+    owl:equivalentProperty easyecom:kbmki-vytjm-dspmw-jdifh .
+
+easyecom:zsnof-gxmlg-xqrvn-mgjkv a owl:DatatypeProperty ;
+    rdfs:label "credit_note_id" ;
+    rdfs:isDefinedBy "credit_note_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qogkf-czxhu-cgurx-ydfzu ;
+    :isPrimaryKey true .
+
+easyecom:zucqe-idxeo-ftcih-vjube a owl:DatatypeProperty ;
+    rdfs:label "accounting_unit" ;
+    rdfs:isDefinedBy "accounting_unit" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:voibe-iuxyc-ftaqt-pnajx .
+
+easyecom:zujlb-uzyzc-ycttp-ejioh a owl:DatatypeProperty ;
+    rdfs:label "model_no" ;
+    rdfs:isDefinedBy "model_no" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq .
+
+easyecom:zweuk-cnyvr-vwyaa-tigqw a owl:DatatypeProperty ;
+    rdfs:label "field_name" ;
+    rdfs:isDefinedBy "field_name" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:mkgcs-udpkp-hczvi-ncnak .
+
+easyecom:zxsrg-rmfqb-ynwjr-htbdo a owl:DatatypeProperty ;
+    rdfs:label "manifest_date" ;
+    rdfs:isDefinedBy "manifest_date" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa .
 
 facebook_ads:badun-kuvuf-zisap-jakuh a owl:DatatypeProperty ;
     rdfs:label "account_id" ;
@@ -31588,6 +33472,193 @@ cohesyve:mugoj-dujiv-gohod-pifij a owl:Class ;
     rdfs:isDefinedBy "A class representing the Cohesyve platform" ;
     rdfs:subClassOf :zusod-tafag-piruj-hivav .
 
+easyecom:dfhdp-ukksh-txbio-luseu a owl:DatatypeProperty ;
+    rdfs:label "product_id" ;
+    rdfs:isDefinedBy "product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:qhkcw-kgxtm-dptkb-rbbco .
+
+easyecom:gfjkx-ilcwq-dlxtj-ybncw a owl:Class ;
+    rdfs:label "Returns"@en ;
+    rdfs:isDefinedBy "Returns" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`credit_note_id` AS `credit_note_id`,
+  t.`invoice_id` AS `invoice_id`,
+  t.`order_id` AS `order_id`,
+  t.`reference_code` AS `reference_code`,
+  t.`company_name` AS `company_name`,
+  t.`warehouseId` AS `warehouseId`,
+  t.`seller_gst` AS `seller_gst`,
+  t.`forward_shipment_pickup_address` AS `forward_shipment_pickup_address`,
+  t.`forward_shipment_pickup_city` AS `forward_shipment_pickup_city`,
+  t.`forward_shipment_pickup_state` AS `forward_shipment_pickup_state`,
+  t.`forward_shipment_pickup_pin_code` AS `forward_shipment_pickup_pin_code`,
+  t.`forward_shipment_pickup_country` AS `forward_shipment_pickup_country`,
+  t.`order_type` AS `order_type`,
+  t.`order_type_key` AS `order_type_key`,
+  t.`replacement_order` AS `replacement_order`,
+  t.`marketplace` AS `marketplace`,
+  t.`marketplace_id` AS `marketplace_id`,
+  t.`salesmanUserId` AS `salesmanUserId`,
+  t.`order_date` AS `order_date`,
+  t.`invoice_date` AS `invoice_date`,
+  t.`import_date` AS `import_date`,
+  t.`last_update_date` AS `last_update_date`,
+  t.`manifest_date` AS `manifest_date`,
+  t.`credit_note_date` AS `credit_note_date`,
+  t.`return_date` AS `return_date`,
+  t.`manifest_no` AS `manifest_no`,
+  t.`invoice_number` AS `invoice_number`,
+  t.`credit_note_number` AS `credit_note_number`,
+  t.`marketplace_credit_note_num` AS `marketplace_credit_note_num`,
+  t.`marketplace_invoice_num` AS `marketplace_invoice_num`,
+  t.`batch_id` AS `batch_id`,
+  t.`batch_created_at` AS `batch_created_at`,
+  t.`payment_mode` AS `payment_mode`,
+  t.`payment_mode_id` AS `payment_mode_id`,
+  t.`buyer_gst` AS `buyer_gst`,
+  t.`forward_shipment_customer_name` AS `forward_shipment_customer_name`,
+  t.`forward_shipment_customer_contact_num` AS `forward_shipment_customer_contact_num`,
+  t.`forward_shipment_customer_address_line_1` AS `forward_shipment_customer_address_line_1`,
+  t.`forward_shipment_customer_address_line_2` AS `forward_shipment_customer_address_line_2`,
+  t.`forward_shipment_customer_city` AS `forward_shipment_customer_city`,
+  t.`forward_shipment_customer_pin_code` AS `forward_shipment_customer_pin_code`,
+  t.`forward_shipment_customer_state` AS `forward_shipment_customer_state`,
+  t.`forward_shipment_customer_country` AS `forward_shipment_customer_country`,
+  t.`forward_shipment_customer_email` AS `forward_shipment_customer_email`,
+  t.`forward_shipment_billing_name` AS `forward_shipment_billing_name`,
+  t.`forward_shipment_billing_address_1` AS `forward_shipment_billing_address_1`,
+  t.`forward_shipment_billing_address_2` AS `forward_shipment_billing_address_2`,
+  t.`forward_shipment_billing_city` AS `forward_shipment_billing_city`,
+  t.`forward_shipment_billing_state` AS `forward_shipment_billing_state`,
+  t.`forward_shipment_billing_pin_code` AS `forward_shipment_billing_pin_code`,
+  t.`forward_shipment_billing_country` AS `forward_shipment_billing_country`,
+  t.`forward_shipment_billing_mobile` AS `forward_shipment_billing_mobile`,
+  t.`order_quantity` AS `order_quantity`,
+  t.`total_invoice_amount` AS `total_invoice_amount`,
+  t.`total_invoice_tax` AS `total_invoice_tax`,
+  t.`invoice_collectable_amount` AS `invoice_collectable_amount`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__returns` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:gocyh-lsxhi-hlpsn-qbhbm a owl:Class ;
+    rdfs:label "Receipts"@en ;
+    rdfs:isDefinedBy "Receipts" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`grn_id` AS `grn_id`,
+  t.`grn_invoice_number` AS `grn_invoice_number`,
+  t.`total_grn_value` AS `total_grn_value`,
+  t.`grn_status_id` AS `grn_status_id`,
+  t.`grn_status` AS `grn_status`,
+  t.`grn_created_at` AS `grn_created_at`,
+  t.`grn_invoice_date` AS `grn_invoice_date`,
+  t.`po_id` AS `po_id`,
+  t.`po_number` AS `po_number`,
+  t.`po_ref_num` AS `po_ref_num`,
+  t.`po_status_id` AS `po_status_id`,
+  t.`po_created_date` AS `po_created_date`,
+  t.`po_updated_date` AS `po_updated_date`,
+  t.`inwarded_warehouse` AS `inwarded_warehouse`,
+  t.`inwarded_warehouse_c_id` AS `inwarded_warehouse_c_id`,
+  t.`vendor_name` AS `vendor_name`,
+  t.`vendor_c_id` AS `vendor_c_id`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__receipts` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:kbmki-vytjm-dspmw-jdifh a owl:DatatypeProperty ;
+    rdfs:label "product_id" ;
+    rdfs:isDefinedBy "product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:onixw-mzfwm-lewmc-rdnjj .
+
+easyecom:nvdmm-axqmm-xyihu-njnwi a owl:DatatypeProperty ;
+    rdfs:label "order_id" ;
+    rdfs:isDefinedBy "order_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:okfyg-mkhuk-xrxul-mczxa ;
+    :isPrimaryKey true .
+
+easyecom:puhln-xavqw-inuko-qriog a owl:Class ;
+    rdfs:label "ProductCompositions"@en ;
+    rdfs:isDefinedBy "ProductCompositions" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `product_id`,
+  t.`sku` AS `sku`,
+  t.`accounting_sku` AS `accounting_sku`,
+  t.`accounting_unit` AS `accounting_unit`,
+  t.`mrp` AS `mrp`,
+  t.`add_date` AS `add_date`,
+  t.`lastUpdateDate` AS `lastUpdateDate`,
+  t.`cost` AS `cost`,
+  t.`HSNCode` AS `HSNCode`,
+  t.`colour` AS `colour`,
+  t.`weight` AS `weight`,
+  t.`height` AS `height`,
+  t.`length` AS `length`,
+  t.`width` AS `width`,
+  t.`size` AS `size`,
+  t.`material_type` AS `material_type`,
+  t.`modelNumber` AS `modelNumber`,
+  t.`modelName` AS `modelName`,
+  t.`category` AS `category`,
+  t.`brand` AS `brand`,
+  t.`c_id` AS `c_id`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__productcompositions` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:rgzpa-wzexq-czmzr-kcyuv a owl:Class ;
+    rdfs:label "EasyEcom"@en ;
+    rdfs:subClassOf :kuzof-kufav-ligug-garus .
+
+easyecom:utmvu-mwgvt-zyfxj-hmxln a owl:Class ;
+    rdfs:label "BuyOrders"@en ;
+    rdfs:isDefinedBy "BuyOrders" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`po_id` AS `po_id`,
+  t.`total_po_value` AS `total_po_value`,
+  t.`po_number` AS `po_number`,
+  t.`po_ref_num` AS `po_ref_num`,
+  t.`po_status_id` AS `po_status_id`,
+  t.`po_created_date` AS `po_created_date`,
+  t.`po_updated_date` AS `po_updated_date`,
+  t.`po_created_warehouse` AS `po_created_warehouse`,
+  t.`po_created_warehouse_c_id` AS `po_created_warehouse_c_id`,
+  t.`vendor_name` AS `vendor_name`,
+  t.`vendor_c_id` AS `vendor_c_id`,
+  t.`vendor_code` AS `vendor_code`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__buyorders` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:xjboh-qxdvy-ajsnb-fffxh a owl:Class ;
+    rdfs:label "Suppliers"@en ;
+    rdfs:isDefinedBy "Suppliers" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`vendor_name` AS `vendor_name`,
+  t.`vendor_c_id` AS `vendor_c_id`,
+  t.`vendor_code` AS `vendor_code`,
+  t.`firstname ` AS `firstname `,
+  t.`lastname` AS `lastname`,
+  t.`email` AS `email`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`address`, '$.dispatch') AS STRING) AS `address_dispatch`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`address`, '$.billing') AS STRING) AS `address_billing`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__suppliers` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
 facebook_ads:jozur-pojol-butab-honok a owl:DatatypeProperty ;
     rdfs:label "id" ;
     rdfs:isDefinedBy "unique identifier for ads" ;
@@ -33725,11 +35796,6 @@ WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
     rdfs:label "PaymentsPlatform"@en ;
     rdfs:subClassOf :maduz-holot-kogit-sojal .
 
-:kuzof-kufav-ligug-garus a owl:Class ;
-    rdfs:label "InventoryPlatform"@en ;
-    rdfs:isDefinedBy "A class representing an inventory platform" ;
-    rdfs:subClassOf :maduz-holot-kogit-sojal .
-
 :najus-hokup-solol-girih a owl:DatatypeProperty ;
     rdfs:label "CountryProperty"@en ;
     rdfs:domain :rujug-sakon-jidag-ritab ;
@@ -34972,6 +37038,178 @@ cohesyve:pasum-naton-vuzik-gatid a owl:DatatypeProperty ;
     rdfs:label "StateProperty"@en ;
     rdfs:domain cohesyve:guhum-zujas-batij-hajin ;
     rdfs:subPropertyOf cohesyve:bofah-fakah-sodus-jofib .
+
+easyecom:kippk-nbiyk-kgqqs-claix a owl:DatatypeProperty ;
+    rdfs:label "ProductsSubProductsItemAdditionalImagesItemProperty"@en ;
+    rdfs:domain easyecom:rbyqj-kkdce-aebxo-nakio ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
+easyecom:mjzaa-xhvyi-gdogd-rprrq a owl:Class ;
+    rdfs:label "ProductsVariantsItemCustomFieldsItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `Parent_product_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_custom_fields, '$.cp_id') AS STRING) AS `cp_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_custom_fields, '$.field_name') AS STRING) AS `field_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_custom_fields, '$.value') AS STRING) AS `value`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_custom_fields, '$.enabled') AS STRING) AS `enabled`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`custom_fields`, 'True', 'true'), 'False', 'false')), [])) AS unnested_custom_fields
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:oyrbv-qawmn-cfpbe-izgnu a owl:DatatypeProperty ;
+    rdfs:label "ProductsVendorCodeItemProperty"@en ;
+    rdfs:domain easyecom:vuuxw-pmvrm-tfhgw-grgqy ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
+easyecom:rbyqj-kkdce-aebxo-nakio a owl:Class ;
+    rdfs:label "ProductsSubProductsItemAdditionalImagesItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `Parent_product_id`,
+  SAFE_CAST(unnested_additional_images AS STRING) AS `additional_images_value`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`additional_images`, 'True', 'true'), 'False', 'false')), [])) AS unnested_additional_images
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:sxjyp-ltmff-dwnlp-rhbku a owl:Class ;
+    rdfs:label "SellOrders"@en ;
+    rdfs:isDefinedBy "SellOrders" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`invoice_id` AS `invoice_id`,
+  t.`order_id` AS `order_id`,
+  t.`queue_message` AS `queue_message`,
+  t.`queue_status` AS `queue_status`,
+  t.`order_priority` AS `order_priority`,
+  t.`blockSplit` AS `blockSplit`,
+  t.`reference_code` AS `reference_code`,
+  t.`company_name` AS `company_name`,
+  t.`location_key` AS `location_key`,
+  t.`warehouseId` AS `warehouseId`,
+  t.`seller_gst` AS `seller_gst`,
+  t.`import_warehouse_id` AS `import_warehouse_id`,
+  t.`import_warehouse_name` AS `import_warehouse_name`,
+  t.`pickup_address` AS `pickup_address`,
+  t.`pickup_city` AS `pickup_city`,
+  t.`pickup_state` AS `pickup_state`,
+  t.`pickup_state_code` AS `pickup_state_code`,
+  t.`pickup_pin_code` AS `pickup_pin_code`,
+  t.`pickup_country` AS `pickup_country`,
+  t.`invoice_currency_code` AS `invoice_currency_code`,
+  t.`order_type` AS `order_type`,
+  t.`order_type_key` AS `order_type_key`,
+  t.`replacement_order` AS `replacement_order`,
+  t.`marketplace` AS `marketplace`,
+  t.`marketplace_id` AS `marketplace_id`,
+  t.`qcPassed` AS `qcPassed`,
+  t.`salesmanUserId` AS `salesmanUserId`,
+  t.`order_date` AS `order_date`,
+  t.`tat` AS `tat`,
+  t.`available_after` AS `available_after`,
+  t.`invoice_date` AS `invoice_date`,
+  t.`import_date` AS `import_date`,
+  t.`last_update_date` AS `last_update_date`,
+  t.`manifest_date` AS `manifest_date`,
+  t.`manifest_no` AS `manifest_no`,
+  t.`invoice_number` AS `invoice_number`,
+  t.`marketplace_invoice_num` AS `marketplace_invoice_num`,
+  t.`shipping_last_update_date` AS `shipping_last_update_date`,
+  t.`batch_id` AS `batch_id`,
+  t.`batch_created_at` AS `batch_created_at`,
+  t.`message` AS `message`,
+  t.`courier_aggregator_name` AS `courier_aggregator_name`,
+  t.`courier` AS `courier`,
+  t.`carrier_id` AS `carrier_id`,
+  t.`awb_number` AS `awb_number`,
+  t.`Package Weight` AS `Package Weight`,
+  t.`Package Height` AS `Package Height`,
+  t.`Package Length` AS `Package Length`,
+  t.`Package Width` AS `Package Width`,
+  t.`order_status` AS `order_status`,
+  t.`order_status_id` AS `order_status_id`,
+  t.`suborder_count` AS `suborder_count`,
+  t.`shipping_status` AS `shipping_status`,
+  t.`shipping_status_id` AS `shipping_status_id`,
+  t.`delivery_date` AS `delivery_date`,
+  t.`payment_mode` AS `payment_mode`,
+  t.`payment_mode_id` AS `payment_mode_id`,
+  t.`payment_gateway_transaction_number` AS `payment_gateway_transaction_number`,
+  t.`payment_gateway_name` AS `payment_gateway_name`,
+  t.`buyer_gst` AS `buyer_gst`,
+  t.`customer_name` AS `customer_name`,
+  t.`contact_num` AS `contact_num`,
+  t.`address_line_1` AS `address_line_1`,
+  t.`address_line_2` AS `address_line_2`,
+  t.`city` AS `city`,
+  t.`pin_code` AS `pin_code`,
+  t.`state` AS `state`,
+  t.`state_code` AS `state_code`,
+  t.`country` AS `country`,
+  t.`email` AS `email`,
+  t.`latitude` AS `latitude`,
+  t.`longitude` AS `longitude`,
+  t.`billing_name` AS `billing_name`,
+  t.`billing_address_1` AS `billing_address_1`,
+  t.`billing_address_2` AS `billing_address_2`,
+  t.`billing_city` AS `billing_city`,
+  t.`billing_state` AS `billing_state`,
+  t.`billing_state_code` AS `billing_state_code`,
+  t.`billing_pin_code` AS `billing_pin_code`,
+  t.`billing_country` AS `billing_country`,
+  t.`billing_mobile` AS `billing_mobile`,
+  t.`order_quantity` AS `order_quantity`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.originalLabelUrl') AS STRING) AS `documents_originalLabelUrl`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.easyecom_invoice') AS STRING) AS `documents_easyecom_invoice`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.label') AS STRING) AS `documents_label`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.intaxform') AS STRING) AS `documents_intaxform`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.outtaxform') AS STRING) AS `documents_outtaxform`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.marketplaceinvoice') AS STRING) AS `documents_marketplaceinvoice`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(t.`documents`, '$.marketplace_tax_invoice') AS STRING) AS `documents_marketplace_tax_invoice`,
+  t.`total_amount` AS `total_amount`,
+  t.`total_tax` AS `total_tax`,
+  t.`total_shipping_charge` AS `total_shipping_charge`,
+  t.`total_discount` AS `total_discount`,
+  t.`collectable_amount` AS `collectable_amount`,
+  t.`tcs_rate` AS `tcs_rate`,
+  t.`tcs_amount` AS `tcs_amount`,
+  t.`customer_code` AS `customer_code`,
+  t.`fulfillable_status` AS `fulfillable_status`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__sellorders` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:syulz-bbmgv-nanxw-tzajy a owl:Class ;
+    rdfs:label "SellOrdersShippingHistoryItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`order_id` AS `Parent_order_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_shipping_history, '$.qc_pass_datetime') AS STRING) AS `qc_pass_datetime`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_shipping_history, '$.confirm_datetime') AS STRING) AS `confirm_datetime`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_shipping_history, '$.print_datetime') AS STRING) AS `print_datetime`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_shipping_history, '$.manifest_datetime') AS STRING) AS `manifest_datetime`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__sell_orders` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`shipping_history`, 'True', 'true'), 'False', 'false')), [])) AS unnested_shipping_history
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:vuuxw-pmvrm-tfhgw-grgqy a owl:Class ;
+    rdfs:label "ProductsVendorCodeItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `Parent_product_id`,
+  SAFE_CAST(unnested_vendor_code AS STRING) AS `vendor_code_value`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`vendor_code`, 'True', 'true'), 'False', 'false')), [])) AS unnested_vendor_code
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
 
 facebook_ads:vobir-munud-sodav-nogon a owl:DatatypeProperty ;
     rdfs:label "AdlabelsProperty" ;
@@ -36535,6 +38773,11 @@ zohobooks:zurtg-zljeu-ugseh-wpcqs a owl:DatatypeProperty ;
     rdfs:domain zohobooks:qrevp-fhzzp-khhfj-bjsib ;
     rdfs:subPropertyOf zohobooks:qyglj-pjwhh-qmkca-ydpns .
 
+:kuzof-kufav-ligug-garus a owl:Class ;
+    rdfs:label "InventoryPlatform"@en ;
+    rdfs:isDefinedBy "A class representing an inventory platform" ;
+    rdfs:subClassOf :maduz-holot-kogit-sojal .
+
 :rujug-sakon-jidag-ritab a owl:Class ;
     rdfs:label "Country"@en ;
     rdfs:isDefinedBy "A class representing a country" ;
@@ -37299,6 +39542,92 @@ cohesyve:makal-rudat-libag-roham a owl:Class ;
     rdfs:label "District"@en ;
     rdfs:isDefinedBy "A class representing a district within a country" ;
     rdfs:subClassOf cohesyve:vafol-gonut-safub-bokim .
+
+easyecom:htgkq-blcdn-ygbqt-zlsvk a owl:Class ;
+    rdfs:label "ProductsSubProductsItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `Parent_product_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.sku') AS STRING) AS `sku`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.combo_cp_id') AS STRING) AS `combo_cp_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.quantity') AS STRING) AS `quantity`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.cpId') AS STRING) AS `cpId`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.accounting_sku') AS STRING) AS `accounting_sku`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.accounting_unit') AS STRING) AS `accounting_unit`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.product_id') AS STRING) AS `product_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.product_name') AS STRING) AS `product_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.height') AS STRING) AS `height`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.length') AS STRING) AS `length`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.width') AS STRING) AS `width`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.weight') AS STRING) AS `weight`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.cost') AS STRING) AS `cost`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.mrp') AS STRING) AS `mrp`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.size') AS STRING) AS `size`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.model_no') AS STRING) AS `model_no`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.EANUPC') AS STRING) AS `EANUPC`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.hsn_code') AS STRING) AS `hsn_code`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.product shelf life') AS STRING) AS `product shelf life`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.product_image_url') AS STRING) AS `product_image_url`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.brand_id') AS STRING) AS `brand_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.cp_inventory') AS STRING) AS `cp_inventory`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.tax_rate') AS STRING) AS `tax_rate`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.tax_rule_name') AS STRING) AS `tax_rule_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.additional_images') AS STRING) AS `additional_images`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_sub_products, '$.custom_fields') AS STRING) AS `custom_fields`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`sub_products`, 'True', 'true'), 'False', 'false')), [])) AS unnested_sub_products
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:ioxgv-cepws-zbhhu-hnzcm a owl:Class ;
+    rdfs:label "ProductsVariantsItem"@en ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`product_id` AS `Parent_product_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.sku') AS STRING) AS `sku`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.parent_cpId') AS STRING) AS `parent_cpId`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.cpId') AS STRING) AS `cpId`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.active') AS STRING) AS `active`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.accounting_sku') AS STRING) AS `accounting_sku`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.accounting_unit') AS STRING) AS `accounting_unit`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.product_id') AS STRING) AS `product_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.product_name') AS STRING) AS `product_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.created_at') AS STRING) AS `created_at`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.inventory') AS STRING) AS `inventory`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.brand') AS STRING) AS `brand`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.colour') AS STRING) AS `colour`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.category_id') AS STRING) AS `category_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.category_name') AS STRING) AS `category_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.height') AS STRING) AS `height`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.length') AS STRING) AS `length`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.width') AS STRING) AS `width`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.weight') AS STRING) AS `weight`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.cost') AS STRING) AS `cost`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.mrp') AS STRING) AS `mrp`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.size') AS STRING) AS `size`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.model_no') AS STRING) AS `model_no`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.EANUPC') AS STRING) AS `EANUPC`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.hsn_code') AS STRING) AS `hsn_code`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.product shelf life') AS STRING) AS `product shelf life`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.product_image_url') AS STRING) AS `product_image_url`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.brand_id') AS STRING) AS `brand_id`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.cp_inventory') AS STRING) AS `cp_inventory`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.tax_rate') AS STRING) AS `tax_rate`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.tax_rule_name') AS STRING) AS `tax_rule_name`,
+  SAFE_CAST(JSON_EXTRACT_SCALAR(unnested_variants, '$.custom_fields') AS STRING) AS `custom_fields`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+LEFT JOIN UNNEST(COALESCE(JSON_EXTRACT_ARRAY(REPLACE(REPLACE(t.`variants`, 'True', 'true'), 'False', 'false')), [])) AS unnested_variants
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
+easyecom:oprdh-crfhp-ldafn-aniya a owl:DatatypeProperty ;
+    rdfs:label "product_id" ;
+    rdfs:isDefinedBy "product_id" ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf easyecom:aawwp-nugsn-tikij-esfzq ;
+    :isPrimaryKey true .
 
 facebook_ads:bamif-bipoj-tunos-didol a owl:Class ;
     rdfs:label "AdInsight" ;
@@ -38749,6 +41078,50 @@ cohesyve:bofah-fakah-sodus-jofib a owl:DatatypeProperty ;
     rdfs:label "CohesyveProperty"@en ;
     rdfs:domain cohesyve:vafol-gonut-safub-bokim .
 
+easyecom:ovmko-mzwsm-ewkmr-nomyg a owl:Class ;
+    rdfs:label "Products"@en ;
+    rdfs:isDefinedBy "Products" ;
+    rdfs:subClassOf easyecom:koidr-itgsc-qdcyu-upeey ;
+    :query """SELECT
+  t.`cp_id` AS `cp_id`,
+  t.`product_id` AS `product_id`,
+  t.`sku` AS `sku`,
+  t.`product_name` AS `product_name`,
+  t.`description` AS `description`,
+  t.`active` AS `active`,
+  t.`created_at` AS `created_at`,
+  t.`updated_at` AS `updated_at`,
+  t.`inventory` AS `inventory`,
+  t.`product_type` AS `product_type`,
+  t.`brand` AS `brand`,
+  t.`colour` AS `colour`,
+  t.`category_id` AS `category_id`,
+  t.`brand_id` AS `brand_id`,
+  t.`accounting_sku` AS `accounting_sku`,
+  t.`accounting_unit` AS `accounting_unit`,
+  t.`category_name` AS `category_name`,
+  t.`expiry_type` AS `expiry_type`,
+  t.`company_name` AS `company_name`,
+  t.`c_id` AS `c_id`,
+  t.`height` AS `height`,
+  t.`length` AS `length`,
+  t.`width` AS `width`,
+  t.`weight` AS `weight`,
+  t.`cost` AS `cost`,
+  t.`mrp` AS `mrp`,
+  t.`size` AS `size`,
+  t.`cp_sub_products_count` AS `cp_sub_products_count`,
+  t.`model_no` AS `model_no`,
+  t.`hsn_code` AS `hsn_code`,
+  t.`tax_rate` AS `tax_rate`,
+  t.`product shelf life` AS `product shelf life`,
+  t.`product_image_url` AS `product_image_url`,
+  t.`cp_inventory` AS `cp_inventory`,
+  t._time_loaded
+FROM
+  `cohesyve-us.#database_id.easyecom__products` AS t
+WHERE date(t._time_loaded) >= date('#cutoff_timestamp')"""^^xsd:string .
+
 facebook_ads:bokuk-kosah-dokit-mogaj a owl:Class ;
     rdfs:label "AdVideo" ;
     rdfs:isDefinedBy "A general class repersenting  Advideos" ;
@@ -39133,6 +41506,16 @@ product_catalog AS (
 )
 
 SELECT * FROM product_catalog""" .
+
+easyecom:mkgcs-udpkp-hczvi-ncnak a owl:DatatypeProperty ;
+    rdfs:label "ProductsVariantsItemCustomFieldsItemProperty"@en ;
+    rdfs:domain easyecom:mjzaa-xhvyi-gdogd-rprrq ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
+easyecom:xnkrf-mqvhx-incjk-aqidn a owl:DatatypeProperty ;
+    rdfs:label "SellOrdersShippingHistoryItemProperty"@en ;
+    rdfs:domain easyecom:syulz-bbmgv-nanxw-tzajy ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
 
 facebook_ads:hulim-fisur-fapil-kadur a owl:Class ;
     rdfs:label "AdAccount" ;
@@ -39550,6 +41933,16 @@ cohesyve:numak-tijik-soruv-movav a owl:ObjectProperty ;
 cohesyve:vafol-gonut-safub-bokim a owl:Class ;
     rdfs:label "CohesyvePlatformField"@en ;
     rdfs:isDefinedBy "A general class representing any field within the Cohesyve platform" .
+
+easyecom:hiuyd-hlhhy-valdx-mwoml a owl:DatatypeProperty ;
+    rdfs:label "SuppliersProperty"@en ;
+    rdfs:domain easyecom:xjboh-qxdvy-ajsnb-fffxh ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
+easyecom:wcewz-dtpen-huolt-rtiuj a owl:ObjectProperty ;
+    rdfs:label "EasyEcomRelationship"@en ;
+    rdfs:domain easyecom:rgzpa-wzexq-czmzr-kcyuv ;
+    rdfs:range easyecom:koidr-itgsc-qdcyu-upeey .
 
 facebook_ads:ropoj-sosaf-bahut-fazuh a owl:DatatypeProperty ;
     rdfs:label "account_id" ;
@@ -41939,6 +44332,11 @@ amazon_seller_central:nomoj-goroj-bihuk-voriv a owl:DatatypeProperty ;
     rdfs:isDefinedBy "Properties related to service provider credits." ;
     rdfs:subPropertyOf amazon_seller_central:jatut-vovog-bobip-hosul .
 
+easyecom:lxgwm-ecuha-kfopd-bawfs a owl:DatatypeProperty ;
+    rdfs:label "BuyOrdersProperty"@en ;
+    rdfs:domain easyecom:utmvu-mwgvt-zyfxj-hmxln ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
 facebook_ads:hajam-lubit-gubog-tidaj a owl:DatatypeProperty ;
     rdfs:label "AdsinsightsProperty" ;
     rdfs:domain facebook_ads:bamif-bipoj-tunos-didol ;
@@ -42023,6 +44421,10 @@ amazon_seller_central:sovif-sijip-jofol-tolak a owl:DatatypeProperty ;
     rdfs:domain amazon_seller_central:fumor-tohiv-sadup-zifok ;
     rdfs:isDefinedBy "Adjustments for removal shipment items." ;
     rdfs:subPropertyOf amazon_seller_central:vibil-disim-zatad-vival .
+
+easyecom:qfsks-skhvm-ubnrx-kutqw a owl:DatatypeProperty ;
+    rdfs:label "EasyEcomProperty"@en ;
+    rdfs:domain easyecom:koidr-itgsc-qdcyu-upeey .
 
 facebook_ads:kitiz-tagij-zorib-namum a owl:Class ;
     rdfs:label "FacebookAdsPlatformField" ;
@@ -42884,6 +45286,9 @@ fees_unnested as (
 
 SELECT distinct * FROM fees_unnested""" .
 
+easyecom:koidr-itgsc-qdcyu-upeey a owl:Class ;
+    rdfs:label "EasyEcomPlatformField"@en .
+
 facebook_ads:mufug-lijoz-tovuf-lobut a owl:DatatypeProperty ;
     rdfs:label "AdimagesProperty" ;
     rdfs:domain facebook_ads:futuz-gusid-bugal-fijuz ;
@@ -42953,6 +45358,11 @@ shopify:zwfyz-gwgzc-wrkev-sloxd a owl:DatatypeProperty ;
     rdfs:label "AbandonedCheckoutLineProperty"@en ;
     rdfs:domain shopify:kofam-rumuv-tunak-tosiz ;
     rdfs:subPropertyOf shopify:zizan-tipus-nalah-lolis .
+
+easyecom:zmmwz-qfwsk-eynyf-pcnqr a owl:DatatypeProperty ;
+    rdfs:label "ReceiptsProperty"@en ;
+    rdfs:domain easyecom:gocyh-lsxhi-hlpsn-qbhbm ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
 
 google_ads:givih-navib-gahik-zopik a owl:DatatypeProperty ;
     rdfs:label "CampaignPerformanceByAgeRangeAndDeviceProperty"@en ;
@@ -43067,6 +45477,11 @@ shiphero:tirul-dotoj-tuhol-labir a owl:DatatypeProperty ;
     rdfs:domain shiphero:zivop-ligih-fovof-tatus ;
     rdfs:subPropertyOf shiphero:jitul-rizoj-bibim-zulut .
 
+easyecom:voibe-iuxyc-ftaqt-pnajx a owl:DatatypeProperty ;
+    rdfs:label "ProductCompositionsProperty"@en ;
+    rdfs:domain easyecom:puhln-xavqw-inuko-qriog ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
 zohobooks:hadau-kudun-bzmhl-dirdz a owl:DatatypeProperty ;
     rdfs:label "JournalsProperty"@en ;
     rdfs:domain zohobooks:wxvin-tuuzz-fjqpr-matdl ;
@@ -43140,6 +45555,11 @@ shopify:aspit-znthk-ieijn-vfdjk a owl:DatatypeProperty ;
     rdfs:domain shopify:safuk-vosih-vomih-rifob ;
     rdfs:subPropertyOf shopify:zizan-tipus-nalah-lolis .
 
+easyecom:onixw-mzfwm-lewmc-rdnjj a owl:DatatypeProperty ;
+    rdfs:label "ProductsSubProductsItemProperty"@en ;
+    rdfs:domain easyecom:htgkq-blcdn-ygbqt-zlsvk ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
 razorpay:zkepx-ivkjc-wfqek-azium a owl:DatatypeProperty ;
     rdfs:label "PaymentsProperty"@en ;
     rdfs:domain razorpay:vhbcd-gjolt-bxmyh-rxors ;
@@ -43175,6 +45595,11 @@ shiphero:rigum-tafuf-dazun-gozop a owl:DatatypeProperty ;
     rdfs:domain shiphero:bavon-minup-nahoj-dapos ;
     rdfs:subPropertyOf shiphero:jitul-rizoj-bibim-zulut .
 
+easyecom:qhkcw-kgxtm-dptkb-rbbco a owl:DatatypeProperty ;
+    rdfs:label "ProductsVariantsItemProperty"@en ;
+    rdfs:domain easyecom:ioxgv-cepws-zbhhu-hnzcm ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
 woocommerce:zurat-tovod-kuguz-forim a owl:DatatypeProperty ;
     rdfs:label "CustomerProperty"@en ;
     rdfs:domain woocommerce:bazul-sijip-figob-novur ;
@@ -43193,6 +45618,11 @@ zohobooks:vewxm-oqrad-ejvzg-qwqld a owl:DatatypeProperty ;
     rdfs:label "EstimatesProperty"@en ;
     rdfs:domain zohobooks:shlwq-ieuck-fiicm-ucayi ;
     rdfs:subPropertyOf zohobooks:qyglj-pjwhh-qmkca-ydpns .
+
+easyecom:aawwp-nugsn-tikij-esfzq a owl:DatatypeProperty ;
+    rdfs:label "ProductsProperty"@en ;
+    rdfs:domain easyecom:ovmko-mzwsm-ewkmr-nomyg ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
 
 quickbooks:ytqtn-nzrxw-jyjel-yofaw a owl:DatatypeProperty ;
     rdfs:label "InvoiceProperty"@en ;
@@ -43322,6 +45752,11 @@ amazonads:xwnxo-aulmf-jbchb-gvggz a owl:DatatypeProperty ;
     rdfs:domain amazonads:nobom-zonin-rilup-hudar ;
     rdfs:subPropertyOf amazonads:sohur-hopik-somaf-rifaz .
 
+easyecom:qogkf-czxhu-cgurx-ydfzu a owl:DatatypeProperty ;
+    rdfs:label "ReturnsProperty"@en ;
+    rdfs:domain easyecom:gfjkx-ilcwq-dlxtj-ybncw ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
+
 zohobooks:crrtp-tmoep-unhqa-qliys a owl:DatatypeProperty ;
     rdfs:label "PurchaseOrdersProperty"@en ;
     rdfs:domain zohobooks:ezoyx-yochr-hltnu-bthjf ;
@@ -43443,6 +45878,11 @@ zohobooks:hhxpu-sjtgl-kuiqv-ynvms a owl:DatatypeProperty ;
     rdfs:label "BillsDetailsProperty"@en ;
     rdfs:domain zohobooks:xwprv-hhxhp-hnpdw-wmjww ;
     rdfs:subPropertyOf zohobooks:qyglj-pjwhh-qmkca-ydpns .
+
+easyecom:okfyg-mkhuk-xrxul-mczxa a owl:DatatypeProperty ;
+    rdfs:label "SellOrdersProperty"@en ;
+    rdfs:domain easyecom:sxjyp-ltmff-dwnlp-rhbku ;
+    rdfs:subPropertyOf easyecom:qfsks-skhvm-ubnrx-kutqw .
 
 zohobooks:qfwkb-swasl-fdqpw-uismc a owl:DatatypeProperty ;
     rdfs:label "EstimatesDetailsProperty"@en ;
